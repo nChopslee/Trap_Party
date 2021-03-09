@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MissileTrigger : MonoBehaviour
+public class FireTrigger : MonoBehaviour
 {
     
     public GameObject missile;
