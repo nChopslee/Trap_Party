@@ -36,6 +36,15 @@ namespace Platformer.Mechanics
 
         bool jump;
         Vector2 move;
+
+        float friction = 1.0f; // 0 means no friction
+        private Vector3 curVel = Vector3.zero;
+        public bool onIce = false;
+
+        //access player 2 controls
+        public PlayerController player1;
+        public Animator animator1;
+
         SpriteRenderer spriteRenderer;
         internal Animator animator;
         readonly PlatformerModel model = Simulation.GetModel<PlatformerModel>();
@@ -55,7 +64,19 @@ namespace Platformer.Mechanics
         {
             if (controlEnabled)
             {
-                move.x = Input.GetAxis("Horizontal2");
+                //ice code
+                if (onIce)
+                {
+                    Vector3 dir = new Vector3(Input.GetAxis("Horizontal2"), 0, Input.GetAxis("Vertical2")); // calculate the desired velocity:
+                    Vector3 vel = transform.TransformDirection(dir) * maxSpeed;
+                    curVel = Vector3.Lerp(curVel, vel, friction * Time.deltaTime);
+                    move = curVel;
+                }
+                else
+                {
+                    move.x = Input.GetAxis("Horizontal2");
+                }
+
                 if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump2"))
                     jumpState = JumpState.PrepareToJump;
                 else if (Input.GetButtonUp("Jump2"))
@@ -136,6 +157,36 @@ namespace Platformer.Mechanics
             Jumping,
             InFlight,
             Landed
+        }
+
+        void OnTriggerEnter2D(Collider2D col)
+        {
+            if (col.CompareTag("Ice"))
+            {
+                friction = 0.2f; // set low friction
+                onIce = true;
+
+            }
+            if (col.CompareTag("Freeze"))
+            {
+                player1.controlEnabled = false;
+                animator1.SetBool("isFrozen", true);
+            }
+
+        }
+
+        void OnTriggerExit2D(Collider2D col)
+        {
+            if (col.CompareTag("Ice"))
+            {
+                friction = 1; // restore regular friction
+                onIce = false;
+            }
+            if (col.CompareTag("Freeze"))
+            {
+                player1.controlEnabled = true;
+                animator1.SetBool("isFrozen", false);
+            }
         }
     }
 }
