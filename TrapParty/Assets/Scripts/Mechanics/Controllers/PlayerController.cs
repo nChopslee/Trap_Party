@@ -38,6 +38,14 @@ namespace Platformer.Mechanics
 
         bool jump;
         Vector2 move;
+        float friction = 1.0f; // 0 means no friction
+        private Vector3 curVel = Vector3.zero;
+        public bool onIce = false;
+
+        //access player 2 controls
+        public Player2Controller player2;
+        public Animator animator2;
+
         SpriteRenderer spriteRenderer;
         internal Animator animator;
         readonly PlatformerModel model = Simulation.GetModel<PlatformerModel>();
@@ -58,17 +66,20 @@ namespace Platformer.Mechanics
         {
             if (controlEnabled)
             {
-                move.x = Input.GetAxis("Horizontal");
-                //if(spriteRenderer.flipX == false)
-                //{
-                //    //velocity.x = 5;
-                //    move.x = 1;
-                //}
-                //else
-                //{
-                //    //velocity.x = -5;
-                //    move.x = -1;
-                //}
+
+                //ice code
+                if (onIce)
+                {
+                    Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")); // calculate the desired velocity:
+                    Vector3 vel = transform.TransformDirection(dir) * maxSpeed;
+                    curVel = Vector3.Lerp(curVel, vel, friction * Time.deltaTime);
+                    move = curVel;
+                }
+                else
+                {
+                    move.x = Input.GetAxis("Horizontal");
+                }
+
 
                 if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump"))
                     jumpState = JumpState.PrepareToJump;
@@ -140,11 +151,12 @@ namespace Platformer.Mechanics
             else if (move.x < -0.01f)
             {
                 spriteRenderer.flipX = true;
-                //collider2d.offset *= -1;
+                //collider2d.offset *= -1; flip collider 2d with player
             }
 
             animator.SetBool("grounded", IsGrounded);
-            animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);  
+            animator.SetFloat("velocityX", Mathf.Abs(velocity.x) / maxSpeed);
+            
 
             targetVelocity = move * maxSpeed;
         }
@@ -157,5 +169,36 @@ namespace Platformer.Mechanics
             InFlight,
             Landed
         }
+
+        void OnTriggerEnter2D(Collider2D col)
+        {
+            if (col.CompareTag ("Ice"))
+            {
+                friction = 0.2f; // set low friction
+                onIce = true;
+                
+            }
+            if (col.CompareTag("Freeze"))
+            {
+                player2.controlEnabled = false;
+                animator2.SetBool("isFrozen", true);
+            }
+
+        }
+
+        void OnTriggerExit2D(Collider2D col)
+        {
+            if (col.CompareTag("Ice"))
+            {
+                friction = 1; // restore regular friction
+                onIce = false;
+            }
+            if (col.CompareTag("Freeze"))
+            {
+                player2.controlEnabled = true;
+                animator2.SetBool("isFrozen", false);
+            }
+        }
     }
+    
 }
