@@ -239,6 +239,11 @@ PrefabInstance:
       propertyPath: animator2
       value: 
       objectReference: {fileID: 7148351806503970983}
+    - target: {fileID: 7979840759439816080, guid: 624bb9bfd9912408aaa6b21de77f0378,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 11379e7641c73451f9cc2560f431736f, type: 2}
     - target: {fileID: 8063900160849191720, guid: 624bb9bfd9912408aaa6b21de77f0378,
         type: 3}
       propertyPath: m_Name
@@ -31654,7 +31659,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: 22faf7800eff649a0819b097efa05718, type: 2}
+  m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -31668,7 +31673,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 660504555}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 22faf7800eff649a0819b097efa05718, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -59899,6 +59904,11 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7090612265029724662, guid: ab6e4cee853bb4517b5ab5b2ea3df384,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 11379e7641c73451f9cc2560f431736f, type: 2}
     - target: {fileID: 7143838615329801896, guid: ab6e4cee853bb4517b5ab5b2ea3df384,
         type: 3}
       propertyPath: m_LocalPosition.x
