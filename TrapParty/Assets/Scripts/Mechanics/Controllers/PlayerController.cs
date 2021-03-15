@@ -71,13 +71,17 @@ namespace Platformer.Mechanics
                 if (onIce)
                 {
                     Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")); // calculate the desired velocity:
-                    Vector3 vel = transform.TransformDirection(dir) * maxSpeed;
+                    Vector3 vel = transform.TransformDirection(dir) * 3;
                     curVel = Vector3.Lerp(curVel, vel, friction * Time.deltaTime);
                     move = curVel;
                 }
                 else
                 {
+                    
                     move.x = Input.GetAxis("Horizontal");
+                    Vector3 transVel = new Vector3(move.x, 0, 0);
+                    curVel = transVel;
+
                 }
 
 
@@ -174,7 +178,7 @@ namespace Platformer.Mechanics
         {
             if (col.CompareTag ("Ice"))
             {
-                friction = 0.2f; // set low friction
+                friction = .1f; // set low friction
                 onIce = true;
                 
             }
@@ -190,7 +194,7 @@ namespace Platformer.Mechanics
         {
             if (col.CompareTag("Ice"))
             {
-                friction = 1; // restore regular friction
+                friction = 1.0f; // restore regular friction
                 onIce = false;
             }
             if (col.CompareTag("Freeze"))
