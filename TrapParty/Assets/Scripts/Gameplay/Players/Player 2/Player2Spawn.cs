@@ -27,8 +27,8 @@ namespace Platformer.Gameplay
             player2.animator.SetBool("dead", false);
 
             //camera follow ****Needs States
-            //model.virtualCamera.m_Follow = player.transform;
-            //model.virtualCamera.m_LookAt = player.transform;
+            //model.virtualCamera2.m_Follow = player2.transform;
+            //model.virtualCamera2.m_LookAt = player2.transform;
 
 
             Simulation.Schedule<EnablePlayerInput>(2f);

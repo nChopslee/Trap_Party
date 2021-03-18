@@ -35,6 +35,7 @@ namespace Platformer.Mechanics
         /*internal new*/ public AudioSource audioSource;
         public Health health;
         public bool controlEnabled = true;
+        float dt = 0.0f;
 
         bool jump;
         Vector2 move;
@@ -64,6 +65,18 @@ namespace Platformer.Mechanics
 
         protected override void Update()
         {
+            if (dt > 5.0f)
+            {
+                dt = 0.0f;
+                player2.controlEnabled = true;
+                animator2.SetBool("isFrozen", false);
+            }
+            if (player2.controlEnabled == false)
+            {
+                dt += Time.deltaTime;
+            }
+
+
             if (controlEnabled)
             {
 
@@ -197,11 +210,10 @@ namespace Platformer.Mechanics
                 friction = 1.0f; // restore regular friction
                 onIce = false;
             }
-            if (col.CompareTag("Freeze"))
-            {
-                player2.controlEnabled = true;
-                animator2.SetBool("isFrozen", false);
-            }
+            //if (col.CompareTag("Freeze"))
+            //{
+                
+            //}
         }
     }
     
