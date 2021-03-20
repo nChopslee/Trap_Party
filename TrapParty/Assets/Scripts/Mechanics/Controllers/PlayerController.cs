@@ -83,10 +83,10 @@ namespace Platformer.Mechanics
                 //ice code
                 if (onIce)
                 {
-                    Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")); // calculate the desired velocity:
-                    Vector3 vel = transform.TransformDirection(dir) * 3;
-                    curVel = Vector3.Lerp(curVel, vel, friction * Time.deltaTime);
-                    move = curVel;
+                    Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, 0); // calculate the desired velocity:
+                    Vector3 vel = transform.TransformDirection(dir) * 3f;
+                    curVel = Vector3.Lerp(curVel, vel, friction*Time.deltaTime);//
+                    move = curVel; //move.x = Input.GetAxis("Horizontal"); //
                 }
                 else
                 {
