@@ -172,6 +172,11 @@ namespace Platformer.Mechanics
                 player1.controlEnabled = false;
                 animator1.SetBool("isFrozen", true);
             }
+	    if (col.CompareTag("Spring"))
+	    {
+		 jumpTakeOffSpeed = 14;
+		 jumpState = JumpState.PrepareToJump;
+	    }
 
         }
 
@@ -186,6 +191,10 @@ namespace Platformer.Mechanics
             {
                 player1.controlEnabled = true;
                 animator1.SetBool("isFrozen", false);
+            }
+	    if (col.CompareTag("Spring"))
+            {
+                jumpTakeOffSpeed = 7;
             }
         }
     }
