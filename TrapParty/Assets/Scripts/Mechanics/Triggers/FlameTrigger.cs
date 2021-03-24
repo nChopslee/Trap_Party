@@ -5,14 +5,14 @@ using UnityEngine;
 public class FlameTrigger : MonoBehaviour
 {
     
-    public ParticleSystem Fire;
-    public ParticleSystem Fire1;
-    public ParticleSystem Fire2;
-    public ParticleSystem Fire3;
-    public ParticleSystem Fire4;
-    public ParticleSystem Fire5;
-    public ParticleSystem Fire6;
-    public ParticleSystem Fire7;
+    public GameObject Fire;
+    public GameObject Fire1;
+    public GameObject Fire2;
+    public GameObject Fire3;
+    public GameObject Fire4;
+    public GameObject Fire5;
+    public GameObject Fire6;
+    public GameObject Fire7;
 
 
     // Start is called before the first frame update
@@ -24,7 +24,7 @@ public class FlameTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Fire1.maxParticless
+        
     }
     void OnTriggerEnter2D(Collider2D col)
     {
