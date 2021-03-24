@@ -90,12 +90,12 @@ namespace Platformer.Mechanics
                     rb.drag = 1;
 
                     //curVel = Vector3.Lerp(curVel, vel * 0, 0);
-                    move.x = Input.GetAxis("Horizontal");
+                    move.x = Input.GetAxis("Horizontal2");
 
                 }
                 else if (onIce)
                 {
-                    Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, 0); // calculate the desired velocity:
+                    Vector3 dir = new Vector3(Input.GetAxis("Horizontal2"), 0, 0); // calculate the desired velocity:
                     Vector3 vel = transform.TransformDirection(dir) * 3f;
                     curVel = Vector3.Lerp(curVel, vel, friction * Time.deltaTime);
                     rb.drag = 0;
@@ -105,7 +105,7 @@ namespace Platformer.Mechanics
                 else
                 {
                     rb.drag = 0;
-                    move.x = Input.GetAxis("Horizontal");
+                    move.x = Input.GetAxis("Horizontal2");
                     friction = 1.0f;
                 }
 
