@@ -4939,6 +4939,8 @@ GameObject:
   - component: {fileID: 2496825212342459388}
   - component: {fileID: 2496825212342459390}
   - component: {fileID: 2496825212342459391}
+  - component: {fileID: 763870894030664769}
+  - component: {fileID: 6600620852764766827}
   m_Layer: 0
   m_Name: Lava
   m_TagString: Untagged
@@ -9857,3 +9859,29 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &763870894030664769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2496825212342459389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9473387ae50744bf946308793bd64e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6600620852764766827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2496825212342459389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a33cccf4f904ce293de00c638de457, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fts: []
+  numbParticles: 0
