@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2496825211477566434
 Transform:
   m_ObjectHideFlags: 0
@@ -4957,7 +4957,7 @@ Transform:
   m_GameObject: {fileID: 2496825212342459389}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9518827, y: 1.0476382, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2496825211477566434}
   m_Father: {fileID: 0}
@@ -5046,7 +5046,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2.5
+      scalar: 3.8
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -5590,7 +5590,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 5
     angle: 35
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -6018,7 +6018,7 @@ ParticleSystem:
       repeatInterval: 0.01
       probability: 0.5
     - serializedVersion: 2
-      time: 0.25
+      time: 0.27
       countCurve:
         serializedVersion: 2
         minMaxState: 0
@@ -8841,7 +8841,7 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -9883,5 +9883,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0a33cccf4f904ce293de00c638de457, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fts: []
-  numbParticles: 0
+  fts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  numbParticles: 1000
