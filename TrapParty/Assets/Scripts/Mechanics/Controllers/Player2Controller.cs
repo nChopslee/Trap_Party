@@ -62,6 +62,7 @@ namespace Platformer.Mechanics
             collider2d = GetComponent<Collider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+            rb = GetComponent<Rigidbody2D>();
         }
 
         protected override void Update()
@@ -226,11 +227,11 @@ namespace Platformer.Mechanics
             {
                 onIce = false;
             }
-            if (col.CompareTag("Freeze"))
-            {
-                player1.controlEnabled = true;
-                animator1.SetBool("isFrozen", false);
-            }
+            //if (col.CompareTag("Freeze"))
+            //{
+            //    player1.controlEnabled = true;
+            //    animator1.SetBool("isFrozen", false);
+            //}
         }
     }
 }
