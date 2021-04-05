@@ -5,10 +5,9 @@ using UnityEngine;
 public class FireTrigger : MonoBehaviour
 {
     
-    public GameObject missile;
-    public GameObject missile2;
-    public GameObject missile3;
-    public GameObject missile4;
+    
+
+    bool triggered = false;
 
 
     // Start is called before the first frame update
@@ -27,11 +26,8 @@ public class FireTrigger : MonoBehaviour
 
         if (col.gameObject.tag == "Player")
         {
-            missile.SetActive(true);
-            missile2.SetActive(true);
-            missile3.SetActive(true);
-            missile4.SetActive(true);
-            Debug.Log(col.gameObject.name + " : " + gameObject.name + " : " + Time.time);
+            triggered = true;
+            
         }
     }
     void OnTriggerExit2D(Collider2D col)
@@ -39,11 +35,13 @@ public class FireTrigger : MonoBehaviour
 
         if (col.gameObject.tag == "Player")
         {
-            missile.SetActive(false);
-            missile2.SetActive(false);
-            missile3.SetActive(false);
-            missile4.SetActive(false);
-
+            triggered = false;
+            
         }
+    }
+
+    public bool isTriggered()
+    {
+        return triggered;
     }
 }

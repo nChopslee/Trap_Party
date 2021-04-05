@@ -30,9 +30,12 @@ namespace Platformer.Mechanics
         public JumpState jumpState = JumpState.Grounded;
         private bool stopJump;
         /*internal new*/ public Collider2D collider2d;
-        /*internal new*/ public AudioSource audioSource;
+        public Rigidbody2D rb;
+        /*internal new*/
+        public AudioSource audioSource;
         public Health health;
         public bool controlEnabled = true;
+        float dt = 0.0f;
 
         bool jump;
         Vector2 move;
@@ -40,6 +43,7 @@ namespace Platformer.Mechanics
         float friction = 1.0f; // 0 means no friction
         private Vector3 curVel = Vector3.zero;
         public bool onIce = false;
+        public bool onSnow = false;
 
         //access player 2 controls
         public PlayerController player1;
@@ -58,24 +62,54 @@ namespace Platformer.Mechanics
             collider2d = GetComponent<Collider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+            rb = GetComponent<Rigidbody2D>();
         }
 
         protected override void Update()
         {
+            if (dt > 5.0f)
+            {
+                dt = 0.0f;
+                player1.controlEnabled = true;
+                animator1.SetBool("isFrozen", false);
+            }
+            if (player1.controlEnabled == false)
+            {
+                dt += Time.deltaTime;
+            }
+
+
             if (controlEnabled)
             {
+            
                 //ice code
-                if (onIce)
+
+                if (onSnow)
                 {
-                    Vector3 dir = new Vector3(Input.GetAxis("Horizontal2"), 0, Input.GetAxis("Vertical2")); // calculate the desired velocity:
-                    Vector3 vel = transform.TransformDirection(dir) * maxSpeed;
+                    //Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, 0); // calculate the desired velocity:
+                    //Vector3 vel = transform.TransformDirection(dir);
+                    rb.drag = 1;
+
+                    //curVel = Vector3.Lerp(curVel, vel * 0, 0);
+                    move.x = Input.GetAxis("Horizontal2");
+
+                }
+                else if (onIce)
+                {
+                    Vector3 dir = new Vector3(Input.GetAxis("Horizontal2"), 0, 0); // calculate the desired velocity:
+                    Vector3 vel = transform.TransformDirection(dir) * 3f;
                     curVel = Vector3.Lerp(curVel, vel, friction * Time.deltaTime);
+                    rb.drag = 0;
+
                     move = curVel;
                 }
                 else
                 {
+                    rb.drag = 0;
                     move.x = Input.GetAxis("Horizontal2");
+                    friction = 1.0f;
                 }
+
 
                 if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump2"))
                     jumpState = JumpState.PrepareToJump;
@@ -161,9 +195,17 @@ namespace Platformer.Mechanics
 
         void OnTriggerEnter2D(Collider2D col)
         {
+            if (col.CompareTag("Snow"))
+            {
+
+                friction = 1.0f; // restore regular friction
+                onSnow = true;
+
+            }
             if (col.CompareTag("Ice"))
             {
-                friction = 0.2f; // set low friction
+
+                friction = .1f; // set low friction
                 onIce = true;
 
             }
@@ -177,16 +219,19 @@ namespace Platformer.Mechanics
 
         void OnTriggerExit2D(Collider2D col)
         {
+            if (col.CompareTag("Snow"))
+            {
+                onSnow = false;
+            }
             if (col.CompareTag("Ice"))
             {
-                friction = 1; // restore regular friction
                 onIce = false;
             }
-            if (col.CompareTag("Freeze"))
-            {
-                player1.controlEnabled = true;
-                animator1.SetBool("isFrozen", false);
-            }
+            //if (col.CompareTag("Freeze"))
+            //{
+            //    player1.controlEnabled = true;
+            //    animator1.SetBool("isFrozen", false);
+            //}
         }
     }
 }

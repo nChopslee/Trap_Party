@@ -30,8 +30,9 @@ namespace Platformer.Mechanics
         public JumpState jumpState = JumpState.Grounded;
         private bool stopJump;
         /*internal new*/ public CircleCollider2D collider2d;
+        public Rigidbody2D rb;
        
-        //public Vector2 offset;
+       
         /*internal new*/ public AudioSource audioSource;
         public Health health;
         public bool controlEnabled = true;
@@ -41,6 +42,7 @@ namespace Platformer.Mechanics
         Vector2 move;
         float friction = 1.0f; // 0 means no friction
         private Vector3 curVel = Vector3.zero;
+        public bool onSnow = false;
         public bool onIce = false;
 
         //access player 2 controls
@@ -60,6 +62,7 @@ namespace Platformer.Mechanics
             collider2d = GetComponent<CircleCollider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
+            rb = GetComponent<Rigidbody2D>();
             
         }
 
@@ -81,20 +84,31 @@ namespace Platformer.Mechanics
             {
 
                 //ice code
-                if (onIce)
+
+                if (onSnow)
                 {
-                    Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")); // calculate the desired velocity:
-                    Vector3 vel = transform.TransformDirection(dir) * 3;
+                    //Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, 0); // calculate the desired velocity:
+                    //Vector3 vel = transform.TransformDirection(dir);
+                    rb.drag = 1;
+                    
+                    //curVel = Vector3.Lerp(curVel, vel * 0, 0);
+                    move.x = Input.GetAxis("Horizontal");
+  
+                }
+                else if(onIce)
+                {
+                    Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, 0); // calculate the desired velocity:
+                    Vector3 vel = transform.TransformDirection(dir) * 3f;
                     curVel = Vector3.Lerp(curVel, vel, friction * Time.deltaTime);
-                    move = curVel;
+                    rb.drag = 0;
+                    
+                    move = curVel; 
                 }
                 else
                 {
-                    
+                    rb.drag = 0;
                     move.x = Input.GetAxis("Horizontal");
-                    Vector3 transVel = new Vector3(move.x, 0, 0);
-                    curVel = transVel;
-
+                    friction = 1.0f;
                 }
 
 
@@ -168,7 +182,7 @@ namespace Platformer.Mechanics
             else if (move.x < -0.01f)
             {
                 spriteRenderer.flipX = true;
-                //collider2d.offset *= -1; flip collider 2d with player
+                
             }
 
             animator.SetBool("grounded", IsGrounded);
@@ -189,11 +203,19 @@ namespace Platformer.Mechanics
 
         void OnTriggerEnter2D(Collider2D col)
         {
-            if (col.CompareTag ("Ice"))
+            if (col.CompareTag ("Snow"))
             {
+                
+                friction = 1.0f; // restore regular friction
+                onSnow = true;
+                
+            }
+            if (col.CompareTag("Ice"))
+            {
+
                 friction = .1f; // set low friction
                 onIce = true;
-                
+
             }
             if (col.CompareTag("Freeze"))
             {
@@ -205,14 +227,17 @@ namespace Platformer.Mechanics
 
         void OnTriggerExit2D(Collider2D col)
         {
-            if (col.CompareTag("Ice"))
+            if (col.CompareTag("Snow"))
             {
-                friction = 1.0f; // restore regular friction
+                onSnow = false;
+            }
+            if (col.CompareTag("Ice"))
+            { 
                 onIce = false;
             }
             //if (col.CompareTag("Freeze"))
             //{
-                
+
             //}
         }
     }
