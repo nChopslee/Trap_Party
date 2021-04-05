@@ -21,8 +21,8 @@ namespace Platformer.Gameplay
             if (player2.health.IsAlive)
             {
                 player2.health.Die();
-                model.virtualCamera.m_Follow = null;
-                model.virtualCamera.m_LookAt = null;
+                //model.virtualCamera2.m_Follow = null;
+                //model.virtualCamera2.m_LookAt = null;
                 //player.GetComponent<Collider>().enabled = false;
                 player2.controlEnabled = false;
 
