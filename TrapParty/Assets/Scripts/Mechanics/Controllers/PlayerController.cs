@@ -14,9 +14,7 @@ namespace Platformer.Mechanics
     /// </summary>
     public class PlayerController : KinematicObject
     {
-        public AudioClip jumpAudio;
-        public AudioClip respawnAudio;
-        public AudioClip ouchAudio;
+        
 
         /// <summary>
         /// Max horizontal speed of the player.
@@ -32,10 +30,9 @@ namespace Platformer.Mechanics
         /*internal new*/ public CircleCollider2D collider2d;
         public Rigidbody2D rb;
        
-       
-        /*internal new*/ public AudioSource audioSource;
         public Health health;
         public bool controlEnabled = true;
+        float dt = 0.0f;
 
         bool jump;
         Vector2 move;
@@ -53,34 +50,40 @@ namespace Platformer.Mechanics
         readonly PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
         public Bounds Bounds => collider2d.bounds;
+        public MusicControl musicSystem;
 
         void Awake()
         {
             health = GetComponent<Health>();
-            audioSource = GetComponent<AudioSource>();
             collider2d = GetComponent<CircleCollider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
-            rb = GetComponent<Rigidbody2D>();
-            
+            rb = GetComponent<Rigidbody2D>();    
         }
 
         protected override void Update()
         {
+            Debug.Log(CurZone);
+            musicSystem.Zone();
+
+            if (dt > 5.0f)
+            {
+                dt = 0.0f;
+                player2.controlEnabled = true;
+                animator2.SetBool("isFrozen", false);
+            }
+            if (player2.controlEnabled == false)
+            {
+                dt += Time.deltaTime;
+            }
+
             if (controlEnabled)
             {
-
                 //ice code
-
                 if (onSnow)
                 {
-                    //Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, 0); // calculate the desired velocity:
-                    //Vector3 vel = transform.TransformDirection(dir);
-                    rb.drag = 1;
-                    
-                    //curVel = Vector3.Lerp(curVel, vel * 0, 0);
                     move.x = Input.GetAxis("Horizontal");
-  
+                    rb.drag = 1;
                 }
                 else if(onIce)
                 {
@@ -98,9 +101,11 @@ namespace Platformer.Mechanics
                     friction = 1.0f;
                 }
 
-
                 if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump"))
+                {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Jump");
                     jumpState = JumpState.PrepareToJump;
+                }
                 else if (Input.GetButtonUp("Jump"))
                 {
                     stopJump = true;
@@ -112,6 +117,7 @@ namespace Platformer.Mechanics
                 move.x = 0;
                
             }
+           
             UpdateJumpState();
             base.Update();
         }
@@ -187,6 +193,7 @@ namespace Platformer.Mechanics
             InFlight,
             Landed
         }
+        
 
         void OnTriggerEnter2D(Collider2D col)
         {
@@ -209,12 +216,29 @@ namespace Platformer.Mechanics
                 player2.controlEnabled = false;
                 animator2.SetBool("isFrozen", true);
             }
-	    if (col.CompareTag("Spring"))
-	    {
-		 jumpTakeOffSpeed = 14;
-		 jumpState = JumpState.PrepareToJump;
-	    }
-	}
+	        if (col.CompareTag("Spring"))
+	        {
+		        jumpTakeOffSpeed = 14;
+		        jumpState = JumpState.PrepareToJump;
+	        }
+
+            if (col.CompareTag("Zone1"))
+            {
+                CurZone = 1.0f;
+            }
+            if (col.CompareTag("Zone2"))
+            {
+                CurZone = 2.0f;
+            }
+            if (col.CompareTag("Zone3"))
+            {
+                CurZone = 3.0f;
+            }
+            if (col.CompareTag("Zone0"))
+            {
+                CurZone = 0.0f;
+            }
+        }
 
         void OnTriggerExit2D(Collider2D col)
         {
@@ -226,11 +250,13 @@ namespace Platformer.Mechanics
             { 
                 onIce = false;
             }
-            //if (col.CompareTag("Freeze"))
-            //{
-
-            //}
+            if (col.CompareTag("Spring"))
+            {
+                jumpTakeOffSpeed = 7;
+            }
         }
+
+        public float CurZone { get; private set; }
     }
     
 }

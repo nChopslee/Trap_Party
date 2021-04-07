@@ -25,9 +25,8 @@ namespace Platformer.Gameplay
                 //model.virtualCamera.m_LookAt = null;
                 //player.GetComponent<Collider>().enabled = false;
                 player.controlEnabled = false;
-
-                if (player.audioSource && player.ouchAudio)
-                    player.audioSource.PlayOneShot(player.ouchAudio);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Death");
+                
                 player.animator.SetTrigger("hurt");
                 player.animator.SetBool("dead", true);
                 Simulation.Schedule<PlayerSpawn>(2);
