@@ -1082,7 +1082,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 6.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &143150696
@@ -1744,6 +1744,7 @@ GameObject:
   - component: {fileID: 183753224}
   - component: {fileID: 183753223}
   - component: {fileID: 183753222}
+  - component: {fileID: 183753225}
   m_Layer: 0
   m_Name: Win Particle L
   m_TagString: Untagged
@@ -6487,6 +6488,18 @@ Transform:
   m_Father: {fileID: 946832418}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &183753225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183753221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b7b8893929d4d9094f6655d580fae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &192290705
 GameObject:
   m_ObjectHideFlags: 0
@@ -20094,7 +20107,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 6.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1098626397
@@ -28277,6 +28290,7 @@ GameObject:
   - component: {fileID: 2083527736}
   - component: {fileID: 2083527735}
   - component: {fileID: 2083527734}
+  - component: {fileID: 2083527737}
   m_Layer: 0
   m_Name: Win Particle R
   m_TagString: Untagged
@@ -31870,7 +31884,7 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     range: {x: 0, y: 1}
   CollisionModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 3
     type: 0
     collisionMode: 0
@@ -33020,6 +33034,18 @@ Transform:
   m_Father: {fileID: 946832418}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &2083527737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083527733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83b7b8893929d4d9094f6655d580fae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2101602637
 GameObject:
   m_ObjectHideFlags: 0
