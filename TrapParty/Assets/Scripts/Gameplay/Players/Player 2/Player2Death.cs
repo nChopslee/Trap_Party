@@ -26,8 +26,7 @@ namespace Platformer.Gameplay
                 //player.GetComponent<Collider>().enabled = false;
                 player2.controlEnabled = false;
 
-                if (player2.audioSource && player2.ouchAudio)
-                    player2.audioSource.PlayOneShot(player2.ouchAudio);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Death");
                 player2.animator.SetTrigger("hurt");
                 player2.animator.SetBool("dead", true);
                 Simulation.Schedule<Player2Spawn>(2);

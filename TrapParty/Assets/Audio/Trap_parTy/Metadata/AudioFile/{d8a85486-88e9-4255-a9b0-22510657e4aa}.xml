@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{d8a85486-88e9-4255-a9b0-22510657e4aa}">
+		<property name="assetPath">
+			<value>Sparse Juke Perc-Snare Subsnare [2021-04-07 015546]-1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.0759583333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ff078bd2-f5d5-49fa-97de-3f614d1579b6}</destination>
+		</relationship>
+	</object>
+</objects>
