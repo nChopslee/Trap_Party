@@ -6,10 +6,585 @@
 [LOG] OutputCoreAudio::init                    : Maximum hardware read size: 1024 samples, Software buffer size: 512 samples, Number of software buffers: 4.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x7fe8d6016e08 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x7fac9e80e208 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700004bfb8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1580e07fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1580e08b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1580e08de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1580e0982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7fac843ca1b8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jump 1 [2021-04-06 230508]', format=5, channels=2, frequency=48000, lengthbytes=10560, lengthpcm=44313, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.226654.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700004bfb8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1580e07fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1580e08b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1580e08de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1580e0982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7fac843ca1b8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jump 3 [2021-04-06 230615]', format=5, channels=2, frequency=48000, lengthbytes=10944, lengthpcm=38626, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.227814.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700004bfb8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1580e07fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1580e08b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1580e08de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1580e0982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7fac843ca1b8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jump 4 [2021-04-06 230715]', format=5, channels=2, frequency=48000, lengthbytes=9536, lengthpcm=33751, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.226898.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700004bfb8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1580e07fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1580e08b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1580e08de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1580e0982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7fac843ca1b8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jump 2 [2021-04-06 230505]', format=5, channels=2, frequency=48000, lengthbytes=11968, lengthpcm=43266, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.228119.
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac8404e8b8 : node = 0x7fac9e01b480
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac8404e8b8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac9e01b590
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 7968
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instumental) [2021-04-13 194749]', format=5, channels=2, frequency=48000, lengthbytes=202464, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac8404e8b8
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 194943] (0x7faca13fb1f8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac9cbae1f8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac92687488)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac880a8818 : node = 0x7fac8816afb0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac880a8818
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac8816b0c0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 12421
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 194943]', format=5, channels=2, frequency=48000, lengthbytes=160096, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac880a8818
+[LOG] SoundI::release                          : Big Up (Instumental) [2021-04-13 194749] (0x7fac8404e8b8)
+[LOG] SoundI::release                          :     Big Up (Instumental) [2021-04-13 194749] (0x7fac843bcc98)
+[LOG] SoundI::release                          :     Big Up (Instumental) [2021-04-13 194749] (0x7faca0263658)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac8577fc58 : node = 0x7fac857861f0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac8577fc58
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac85786300
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 194943]', format=5, channels=2, frequency=48000, lengthbytes=160096, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac8577fc58
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 194943] (0x7fac880a8818)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac880c8ed8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac8804bba8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac8515af08 : node = 0x7fac8418e380
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac8515af08
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac8418e490
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 5859
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instumental) [2021-04-13 194749]', format=5, channels=2, frequency=48000, lengthbytes=202464, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac8515af08
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 194943] (0x7fac8577fc58)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac843bcc98)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac9df3ba98)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac84f8a598 : node = 0x7faca0093c70
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac84f8a598
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faca0093d80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 13125
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195145]', format=5, channels=2, frequency=48000, lengthbytes=201664, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac84f8a598
+[LOG] SoundI::release                          : Big Up (Instumental) [2021-04-13 194749] (0x7fac8515af08)
+[LOG] SoundI::release                          :     Big Up (Instumental) [2021-04-13 194749] (0x7fac85403168)
+[LOG] SoundI::release                          :     Big Up (Instumental) [2021-04-13 194749] (0x7faca0263658)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac880a8818 : node = 0x7fac8816afb0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac880a8818
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac8816b0c0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195145]', format=5, channels=2, frequency=48000, lengthbytes=201664, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac880a8818
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195145] (0x7fac84f8a598)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac843bcc98)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac8404e8b8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faca0263658 : node = 0x7fac9e01b480
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faca0263658
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac9e01b590
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 2343
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instumental) [2021-04-13 194749]', format=5, channels=2, frequency=48000, lengthbytes=202464, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faca0263658
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195145] (0x7fac880a8818)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac880c8ed8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac8804bba8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac854b3f38 : node = 0x7fac849c0720
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac854b3f38
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac849c0830
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 7734
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195145]', format=5, channels=2, frequency=48000, lengthbytes=201664, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac854b3f38
+[LOG] SoundI::release                          : Big Up (Instumental) [2021-04-13 194749] (0x7faca0263658)
+[LOG] SoundI::release                          :     Big Up (Instumental) [2021-04-13 194749] (0x7fac88065788)
+[LOG] SoundI::release                          :     Big Up (Instumental) [2021-04-13 194749] (0x7fac88065918)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac828f4458 : node = 0x7faca07f63c0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac828f4458
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faca07f64d0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 13828
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195148]', format=5, channels=2, frequency=48000, lengthbytes=193888, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac828f4458
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195145] (0x7fac854b3f38)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac85403168)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7faca0264328)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac84dc03a8 : node = 0x7fac8418e380
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac84dc03a8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac8418e490
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195148]', format=5, channels=2, frequency=48000, lengthbytes=193888, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac84dc03a8
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195148] (0x7fac828f4458)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac9cbae1f8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac92687488)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faca0264328 : node = 0x7fac9e01b480
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faca0264328
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac9e01b590
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 3281
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195145]', format=5, channels=2, frequency=48000, lengthbytes=201664, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faca0264328
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195148] (0x7fac84dc03a8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac841df808)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7faca11ce6c8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac92687488 : node = 0x7faca07f63c0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac92687488
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faca07f64d0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 3984
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195148]', format=5, channels=2, frequency=48000, lengthbytes=193888, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac92687488
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195145] (0x7faca0264328)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac9b21d318)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac8515af08)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700004bfb8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1580e07fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1580e08b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1580e08de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1580e0982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7fac855f4a58
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Death 1 [2021-04-07 003713]', format=5, channels=2, frequency=48000, lengthbytes=23968, lengthpcm=72868, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.572784.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700004bfb8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1580e07fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1580e08b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1580e08de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1580e0982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7fac92739168
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ReSpawn [2021-04-07 004627]', format=5, channels=2, frequency=48000, lengthbytes=32672, lengthpcm=128000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac9e7dc688 : node = 0x7faca075aaa0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac9e7dc688
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faca075abb0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 6796
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 194943]', format=5, channels=2, frequency=48000, lengthbytes=160096, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac9e7dc688
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195148] (0x7fac92687488)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac9cbae1f8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac8448a388)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac9df3ba98 : node = 0x7fac9e01b480
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac9df3ba98
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac9e01b590
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 194943]', format=5, channels=2, frequency=48000, lengthbytes=160096, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac9df3ba98
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 194943] (0x7fac9e7dc688)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac84377638)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac854b3f38)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac854b3f38 : node = 0x7fac849c0720
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac854b3f38
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac849c0830
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 3046
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instumental) [2021-04-13 194749]', format=5, channels=2, frequency=48000, lengthbytes=202464, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac854b3f38
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 194943] (0x7fac9df3ba98)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac8577fe68)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac85786048)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac8577fc58 : node = 0x7fac8577fe10
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac8577fc58
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac8577ff20
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 8906
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195145]', format=5, channels=2, frequency=48000, lengthbytes=201664, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac8577fc58
+[LOG] SoundI::release                          : Big Up (Instumental) [2021-04-13 194749] (0x7fac854b3f38)
+[LOG] SoundI::release                          :     Big Up (Instumental) [2021-04-13 194749] (0x7fac855d8c28)
+[LOG] SoundI::release                          :     Big Up (Instumental) [2021-04-13 194749] (0x7faca13fb1f8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac880dc0b8 : node = 0x7fac88085530
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac880dc0b8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac88085640
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 13359
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195148]', format=5, channels=2, frequency=48000, lengthbytes=193888, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac880dc0b8
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195145] (0x7fac8577fc58)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac843bcc98)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7faca0264328)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac8804bba8 : node = 0x7fac880c8ef0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac8804bba8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac880c9000
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195148]', format=5, channels=2, frequency=48000, lengthbytes=193888, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac8804bba8
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195148] (0x7fac880dc0b8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac9cbae1f8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac9e7dc688)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac85110438 : node = 0x7fac84dbdc10
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac85110438
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac84dbdd20
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 3515
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195145]', format=5, channels=2, frequency=48000, lengthbytes=201664, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac85110438
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195148] (0x7fac8804bba8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac880b8468)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac880b85f8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac855eb0e8 : node = 0x7faca0093c70
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac855eb0e8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faca0093d80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 4453
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195148]', format=5, channels=2, frequency=48000, lengthbytes=193888, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac855eb0e8
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195145] (0x7fac85110438)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac82e29aa8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac84dc03a8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac92687488 : node = 0x7faca075aaa0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac92687488
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7faca075abb0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195148]', format=5, channels=2, frequency=48000, lengthbytes=193888, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac92687488
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195148] (0x7fac855eb0e8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac855d8c28)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac855e4e28)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fac88085518 : node = 0x7fac8804bbc0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fac88085518
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac8804bcd0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 468
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 195145]', format=5, channels=2, frequency=48000, lengthbytes=201664, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fac88085518
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195148] (0x7fac92687488)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac9cbae1f8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195148] (0x7fac8448a388)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7faca0264328 : node = 0x7fac9e01b480
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7faca13fb528.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7faca0264328
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fac9e01b590
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 1875
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Big Up (Instrumental) [2021-04-13 194943]', format=5, channels=2, frequency=48000, lengthbytes=160096, lengthpcm=720000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7faca0264328
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 195145] (0x7fac88085518)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac9e749588)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 195145] (0x7fac828f4458)
+[LOG] SoundI::release                          : Big Up (Instrumental) [2021-04-13 194943] (0x7faca0264328)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac8577fcc8)
+[LOG] SoundI::release                          :     Big Up (Instrumental) [2021-04-13 194943] (0x7fac8577fe58)
+[LOG] SoundI::release                          :  (0x7fac84f91de8)
+[LOG] SoundI::release                          :     Death 1 [2021-04-07 003713] (0x7fac84f07ee8)
+[LOG] SoundI::release                          :  (0x7fac82e95788)
+[LOG] SoundI::release                          :     ReSpawn [2021-04-07 004627] (0x7fac9b21d318)
+[LOG] SoundI::release                          :  (0x7faca01dfec8)
+[LOG] SoundI::release                          :     Jump 1 [2021-04-06 230508] (0x7fac85474e68)
+[LOG] SoundI::release                          :  (0x7fac9de680a8)
+[LOG] SoundI::release                          :     Jump 2 [2021-04-06 230505] (0x7fac85633ce8)
+[LOG] SoundI::release                          :  (0x7fac854ed408)
+[LOG] SoundI::release                          :     Jump 3 [2021-04-06 230615] (0x7fac84e80a38)
+[LOG] SoundI::release                          :  (0x7faca0674e88)
+[LOG] SoundI::release                          :     Jump 4 [2021-04-06 230715] (0x7fac82f54d88)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.

@@ -40,6 +40,7 @@ namespace Platformer.Mechanics
         private Vector3 curVel = Vector3.zero;
         public bool onSnow = false;
         public bool onIce = false;
+        
 
         //access player 2 controls
         public Player2Controller player2;
@@ -216,7 +217,8 @@ namespace Platformer.Mechanics
                 player2.controlEnabled = false;
                 animator2.SetBool("isFrozen", true);
             }
-	        if (col.CompareTag("Spring"))
+            
+            if (col.CompareTag("Spring"))
 	        {
 		        jumpTakeOffSpeed = 14;
 		        jumpState = JumpState.PrepareToJump;
@@ -253,6 +255,14 @@ namespace Platformer.Mechanics
             if (col.CompareTag("Spring"))
             {
                 jumpTakeOffSpeed = 7;
+            }
+        }
+        void OnParticleCollision(GameObject other)
+        {
+            if (other.CompareTag("Shot"))
+            {
+
+                animator.SetTrigger("isShot");
             }
         }
 

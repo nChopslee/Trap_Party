@@ -20,7 +20,7 @@ public class PlayAudioClip : StateMachineBehaviour
     /// <summary>
     /// The audio clip to be played.
     /// </summary>
-    public AudioClip clip;
+    //public AudioClip clip;
     float last_t = -1f;
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -28,7 +28,7 @@ public class PlayAudioClip : StateMachineBehaviour
         var nt = stateInfo.normalizedTime;
         if (modulus > 0f) nt %= modulus;
         if (nt >= t && last_t < t)
-            AudioSource.PlayClipAtPoint(clip, animator.transform.position);
+            //AudioSource.PlayClipAtPoint(clip, animator.transform.position);
         last_t = nt;
     }
 }

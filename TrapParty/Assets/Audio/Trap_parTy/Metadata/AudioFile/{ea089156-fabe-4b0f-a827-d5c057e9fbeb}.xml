@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{ea089156-fabe-4b0f-a827-d5c057e9fbeb}">
+		<property name="assetPath">
+			<value>SwampThing FM Mod Wub.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>13.714291666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ff078bd2-f5d5-49fa-97de-3f614d1579b6}</destination>
+		</relationship>
+	</object>
+</objects>

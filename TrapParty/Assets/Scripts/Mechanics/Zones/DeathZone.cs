@@ -13,7 +13,12 @@ namespace Platformer.Mechanics
     public class DeathZone : MonoBehaviour
     {
 
+        
+        
 
+        public bool shooter;
+        public bool burner;
+      
         void OnTriggerEnter2D(Collider2D collider)
         {
             var p = collider.gameObject.GetComponent<PlayerController>();
@@ -37,11 +42,29 @@ namespace Platformer.Mechanics
 
             if (p != null)
             {
+                if (other.CompareTag("Player") && (shooter))
+                {
+
+                    p.animator.SetBool("isShot", true);
+                    Debug.Log(other.tag);
+                }
+                if (other.CompareTag("Player") && (burner))
+                {
+
+                    p.animator.SetBool("isBurned", true);
+                    Debug.Log(other.tag);
+                }
                 var ev = Schedule<PlayerEnteredDeathZone>();
                 ev.deathzone = this;
             }
             if (p2 != null)
             {
+                if (other.CompareTag("Player") && (shooter))
+                {
+
+                    p2.animator.SetBool("isShot", true);
+                    Debug.Log(other.tag);
+                }
                 var ev2 = Schedule<Player2EnteredDeathZone>();
                 ev2.deathzone = this;
             }

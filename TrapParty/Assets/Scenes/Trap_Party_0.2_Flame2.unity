@@ -777,6 +777,11 @@ PrefabInstance:
       propertyPath: animator2
       value: 
       objectReference: {fileID: 7148351806503970983}
+    - target: {fileID: 7960434377847681806, guid: 624bb9bfd9912408aaa6b21de77f0378,
+        type: 3}
+      propertyPath: musicSystem
+      value: 
+      objectReference: {fileID: 931343438}
     - target: {fileID: 7979840759439816080, guid: 624bb9bfd9912408aaa6b21de77f0378,
         type: 3}
       propertyPath: m_Controller
@@ -1082,7 +1087,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 6.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &143150696
@@ -10002,7 +10007,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -45.778896, y: -11.704615, z: -10}
+  m_LocalPosition: {x: -45.778904, y: -11.70742, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1094850728}
@@ -17116,6 +17121,52 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &931343437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 931343439}
+  - component: {fileID: 931343438}
+  m_Layer: 0
+  m_Name: MusicSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &931343438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931343437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43faf1b8cddb64c71a694cacecc57300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1: {fileID: 1137264796}
+  player2: {fileID: 362261878}
+  music: event:/IceMusic
+--- !u!4 &931343439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931343437}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -37.237633, y: -12.759731, z: -190.49219}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &934236176
 GameObject:
   m_ObjectHideFlags: 0
@@ -20094,7 +20145,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 6.46}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1098626397
@@ -26702,7 +26753,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830282668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.84997, y: -11.934481, z: -10}
+  m_LocalPosition: {x: 47.849968, y: -11.937286, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 92841960}
@@ -27241,6 +27292,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322212664535529028, guid: af2be3a9b0420404a8c73916cecb6466,
+        type: 3}
+      propertyPath: burner
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af2be3a9b0420404a8c73916cecb6466, type: 3}
