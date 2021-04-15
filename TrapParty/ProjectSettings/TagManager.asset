@@ -8,6 +8,13 @@ TagManager:
   - Freeze
   - Gravity
   - Snow
+  - Spring
+  - Zone1
+  - Zone2
+  - Zone3
+  - Zone0
+  - Burner
+  - Shot
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,1050 @@
+[LOG] System::create                           : Header version = 2.01.07. Current version = 2.01.07.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0x0.
+[LOG] SystemI::init                            : Initialize version=20107 (113487), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD Core Audio Output'
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 48000Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Maximum hardware read size: 1024 samples, Software buffer size: 512 samples, Number of software buffers: 4.
+[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 0x7f85ecada408 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700008dbe8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1624f77fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1624f78b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1624f78de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1624f7982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85f53da418
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jump 1 [2021-04-06 230508]', format=5, channels=2, frequency=48000, lengthbytes=10560, lengthpcm=44313, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.226654.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700008dbe8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1624f77fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1624f78b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1624f78de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1624f7982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85f53da418
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jump 3 [2021-04-06 230615]', format=5, channels=2, frequency=48000, lengthbytes=10944, lengthpcm=38626, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.227814.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700008dbe8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1624f77fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1624f78b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1624f78de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1624f7982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85f53da418
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jump 4 [2021-04-06 230715]', format=5, channels=2, frequency=48000, lengthbytes=9536, lengthpcm=33751, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.226898.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700008dbe8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1624f77fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1624f78b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1624f78de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1624f7982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85f53da418
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Jump 2 [2021-04-06 230505]', format=5, channels=2, frequency=48000, lengthbytes=11968, lengthpcm=43266, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.228119.
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f233b468 : node = 0x7f85f233ba50
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f233b468
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f233bb60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 12428
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f233b468
+[LOG] SoundI::release                          : SwampThing Rhythm Animals (0x7f85e96a4cc8)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85f53494f8)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85f5349bc8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f385e158 : node = 0x7f85f388c5d0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f385e158
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f388c6e0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f385e158
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85f233b468)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f53d6c78)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f53d6e08)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3e89868 : node = 0x7f85f3e89a20
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3e89868
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3e89b30
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 2142
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Rhythm Animals', format=5, channels=2, frequency=48000, lengthbytes=173280, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3e89868
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85f385e158)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3e89238)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3e893c8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f385a488 : node = 0x7f85f385e170
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f385a488
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f385e280
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 10285
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f385a488
+[LOG] SoundI::release                          : SwampThing Rhythm Animals (0x7f85f3e89868)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85f3e8a7a8)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85f3e8a938)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f233c218 : node = 0x7f85f233d4b0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f233c218
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f233d5c0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f233c218
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85f385a488)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f1beb208)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f1beb398)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f1beaff8 : node = 0x7f85f3e89070
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f1beaff8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3e89180
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f1beaff8
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85f233c218)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3ce3008)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3ce39c8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f53de438 : node = 0x7f85f53de5f0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f53de438
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f53de700
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 2571
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f53de438
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85f1beaff8)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3ce2628)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3ce18d8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85eb800ee8 : node = 0x7f85eb8010a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85eb800ee8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85eb8011b0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 9000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85eb800ee8
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3860c38 : node = 0x7f85f3860df0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f53de438)
+[LOG] AsyncThread::threadFunc                  :     Starting Asynchronous operation on sound 0x7f85f3860c38
+[LOG] SystemI::createSoundInternal             :         Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :         exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :         exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :         exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :         exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :         exinfo->inclusionlist      = 0x7f85f3860f00
+[LOG] SystemI::createSoundInternal             :         exinfo->inclusionlistnum   = 1
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f2399be8)
+[LOG] SystemI::createSoundInternal             :         exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :         exinfo->initialseekposition = 9428
+[LOG] SoundI::release                          :         SwampThing Drums Wub (0x7f85f2399d78)
+[LOG] SystemI::createSoundInternal             :         exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3860c38
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85eb800ee8)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f1bec448)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f1bec5d8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f233bb58 : node = 0x7f85f233bd10
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f233bb58
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f233be20
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0x7f85f1ce53c8 : node = 0x7f85f1ce4fa0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f233bb58
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f1ce53c8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f1ce50b0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 13714
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f1ce53c8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e96d1488
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e96d1488
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85f1ce53c8)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85e963d798)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85e96d1488)
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f3860c38)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3861298)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3861428)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3861658 : node = 0x7f85f3861810
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3861658
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3861920
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 10285
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3861658
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f233bb58)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f2399df8)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f2399f88)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3862228 : node = 0x7f85f3861370
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3862228
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3861480
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 10714
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3862228
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85f3861658)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f3861ef8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f3862088)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f1ce6028 : node = 0x7f85f1ce4fa0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f1ce6028
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f1ce50b0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f1ce6028
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f3862228)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f53dfbe8)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f53dfd78)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f2399ea8 : node = 0x7f85e96d1290
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f2399ea8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e96d13a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 4285
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f2399ea8
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85f1ce6028)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f3860728)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f38616a8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f53df608 : node = 0x7f85f53deab0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f53df948 : node = 0x7f85f53dfb00
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f53df608
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f53debc0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f53df608
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f53df948
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f53dfc10
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 13714
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f53df948
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f38647b8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f38647b8
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85f53df948)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3864628)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f38647b8)
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f2399ea8)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3862058)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3862738)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700008dbe8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1624f77fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1624f78b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1624f78de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1624f7982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85f2399d08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Death 1 [2021-04-07 003713]', format=5, channels=2, frequency=48000, lengthbytes=23968, lengthpcm=72868, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.572784.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 100096
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4384
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x700008dbe8b4
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1624f77fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1624f78b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1624f78de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x1624f7982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7f85f38629a8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ReSpawn [2021-04-07 004627]', format=5, channels=2, frequency=48000, lengthbytes=32672, lengthpcm=128000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f53dd4e8 : node = 0x7f85f53dd6a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f53dd4e8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f53dd7b0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 5571
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Rhythm Animals', format=5, channels=2, frequency=48000, lengthbytes=173280, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f53dd4e8
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f53df608)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3863d38)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3863ec8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3863358 : node = 0x7f85f3863510
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3863358
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3863620
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Rhythm Animals', format=5, channels=2, frequency=48000, lengthbytes=173280, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3863358
+[LOG] SoundI::release                          : SwampThing Rhythm Animals (0x7f85f53dd4e8)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85f3865938)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85f3865ac8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3860898 : node = 0x7f85f3864c90
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3860898
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3864da0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 2571
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3860898
+[LOG] SoundI::release                          : SwampThing Rhythm Animals (0x7f85f3863358)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85e96d2568)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85e96d26f8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e96d2268 : node = 0x7f85f233d730
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e96d2268
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f233d840
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 5571
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Rhythm Animals', format=5, channels=2, frequency=48000, lengthbytes=173280, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e96d2268
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85f3860898)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f38620c8)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3862258)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e96d2e48 : node = 0x7f85f233d090
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e96d2e48
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f233d1a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 10285
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e96d2e48
+[LOG] SoundI::release                          : SwampThing Rhythm Animals (0x7f85e96d2268)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85f38629b8)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85f3862b48)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3862938 : node = 0x7f85f3862af0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3862938
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3862c00
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3862938
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85e96d2e48)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3860578)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3860708)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f1bf2048 : node = 0x7f85f1bf2200
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f1bf2048
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f1bf2310
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 1285
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Rhythm Animals', format=5, channels=2, frequency=48000, lengthbytes=173280, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f1bf2048
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85f3862938)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3863a48)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3863bd8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3e0a748 : node = 0x7f85f3e0a900
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3e0a748
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3e0aa10
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 6000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3e0a748
+[LOG] SoundI::release                          : SwampThing Rhythm Animals (0x7f85f1bf2048)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85f3864368)
+[LOG] SoundI::release                          :     SwampThing Rhythm Animals (0x7f85f38657a8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e96d3ef8 : node = 0x7f85e96d4b40
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e96d3ef8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e96d4c50
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 11571
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e96d3ef8
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85f3e0a748)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85e96d3578)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85e96d3708)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3ce0d68 : node = 0x7f85f3cdf580
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3ce0d68
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3cdf868 : node = 0x7f85f3cdf290
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3cdf690
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3ce0d68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3cdf868
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3cdf3a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 13714
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Animals', format=5, channels=2, frequency=48000, lengthbytes=190976, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3cdf868
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3865fb8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3865fb8
+[LOG] SoundI::release                          : SwampThing Drums Animals (0x7f85f3cdf868)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3865e28)
+[LOG] SoundI::release                          :     SwampThing Drums Animals (0x7f85f3865fb8)
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85e96d3ef8)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3862b28)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3864dd8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3e0a5a8 : node = 0x7f85f3e0a760
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3e0a5a8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3e0a870
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 3000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3e0a5a8
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f3ce0d68)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3865538)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f38656c8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3863758 : node = 0x7f85f3863910
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3863758
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3863a20
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 6857
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3863758
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85f3e0a5a8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f1bf2178)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f1bf2308)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85eb9984d8 : node = 0x7f85eb998690
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85eb9984d8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85eb9987a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 8571
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85eb9984d8
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f3863758)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3862b18)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3865038)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3e8b838 : node = 0x7f85f3e0a760
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3e8b838
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3e0a870
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 11571
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3e8b838
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85eb9984d8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85eb9a15f8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f1bf1db8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f53de678 : node = 0x7f85f53de1d0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f53de678
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f53de2e0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f53de678
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f3e8b838)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85e96baf58)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85e96bb0e8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f3cdf568 : node = 0x7f85f3cdff00
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f3cdf568
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3ce0010
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 2571
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f3cdf568
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85f53de678)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f53d6908)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f53d6a98)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e96bb828 : node = 0x7f85e96bb9e0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e96bb828
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e96bbaf0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 4285
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e96bb828
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f3cdf568)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f53e0b98)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f53e0d28)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f1ce86f8 : node = 0x7f85f1ce88b0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f1ce86f8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f1ce89c0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 7285
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f1ce86f8
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85e96bb828)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85e96bc0c8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85e96bc258)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e96bbea8 : node = 0x7f85e96bb130
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e96bbea8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e96bb240
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 8571
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e96bbea8
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f1ce86f8)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85eb9a13e8)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85eb9a1578)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f38667d8 : node = 0x7f85f3866990
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f38667d8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3866aa0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 10285
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f38667d8
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85e96bbea8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f38655c8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f3865da8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f53de798 : node = 0x7f85f53de950
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f53de798
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f53dea60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 12428
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f53de798
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f38667d8)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3867918)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f3867aa8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f53e0bc8 : node = 0x7f85f53e0d80
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f53e0bc8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f53e0e90
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f53e0bc8
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85f53de798)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f3865b98)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f3865d28)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f53de798 : node = 0x7f85f53de950
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f53de798
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f53dea60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 428
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f53de798
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85f53e0bc8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f53e1468)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f53e15f8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f53e1448 : node = 0x7f85f53d6820
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f53e1448
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f53d6930
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 2142
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f53e1448
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85f53de798)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f53e1b58)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f53e1ce8)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85eb9988f8 : node = 0x7f85f3e8c050
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85eb9988f8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f3e8c160
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 3857
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85eb9988f8
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85f53e1448)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f53e2298)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f53e2428)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85f1ce86f8 : node = 0x7f85f1ce88b0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85f1ce86f8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85f1ce89c0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 5571
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85f1ce86f8
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85eb9988f8)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f53e0be8)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85f53e0d78)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85eb9988f8 : node = 0x7f85eb9a1400
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85eb9988f8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85eb9a1510
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing FM Mod Wub', format=5, channels=2, frequency=48000, lengthbytes=187968, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85eb9988f8
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85f1ce86f8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f1ce94b8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f1ce9648)
+[LOG] SystemI::createSound                     : filename = Assets/Audio/Trap_parTy/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7f85e96bad98 : node = 0x7f85e96baf50
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7f85e96a5138.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7f85e96bad98
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/Audio/Trap_parTy/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3554784
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 11872
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7f85e96bb060
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 3428
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='SwampThing Drums Wub', format=5, channels=2, frequency=48000, lengthbytes=188640, lengthpcm=658286, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999908.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7f85e96bad98
+[LOG] SoundI::release                          : SwampThing FM Mod Wub (0x7f85eb9988f8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f3e8c3f8)
+[LOG] SoundI::release                          :     SwampThing FM Mod Wub (0x7f85f3e8c588)
+[LOG] SoundI::release                          : SwampThing Drums Wub (0x7f85e96bad98)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85e96bbbe8)
+[LOG] SoundI::release                          :     SwampThing Drums Wub (0x7f85e96bbd78)
+[LOG] SoundI::release                          :  (0x7f85e96d1a28)
+[LOG] SoundI::release                          :     Death 1 [2021-04-07 003713] (0x7f85e96d1b98)
+[LOG] SoundI::release                          :  (0x7f85f3864978)
+[LOG] SoundI::release                          :     ReSpawn [2021-04-07 004627] (0x7f85f3864ae8)
+[LOG] SoundI::release                          :  (0x7f85f53d5f28)
+[LOG] SoundI::release                          :     Jump 1 [2021-04-06 230508] (0x7f85f53d6098)
+[LOG] SoundI::release                          :  (0x7f85f53d8968)
+[LOG] SoundI::release                          :     Jump 2 [2021-04-06 230505] (0x7f85f53d8ad8)
+[LOG] SoundI::release                          :  (0x7f85f53d8008)
+[LOG] SoundI::release                          :     Jump 3 [2021-04-06 230615] (0x7f85f53d8178)
+[LOG] SoundI::release                          :  (0x7f85f53d84b8)
+[LOG] SoundI::release                          :     Jump 4 [2021-04-06 230715] (0x7f85f53d8628)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.

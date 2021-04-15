@@ -18,8 +18,7 @@ namespace Platformer.Gameplay
             //player 2
             player2.collider2d.enabled = true;
             player2.controlEnabled = false;
-            if (player2.audioSource && player2.respawnAudio)
-                player2.audioSource.PlayOneShot(player2.respawnAudio);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Respawn");
 
             player2.health.Increment();
             player2.Teleport(model.spawnPoint2.transform.position);

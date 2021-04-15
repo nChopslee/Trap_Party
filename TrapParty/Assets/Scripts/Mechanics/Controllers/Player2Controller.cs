@@ -14,9 +14,7 @@ namespace Platformer.Mechanics
     /// </summary>
     public class Player2Controller : KinematicObject
     {
-        public AudioClip jumpAudio;
-        public AudioClip respawnAudio;
-        public AudioClip ouchAudio;
+        
 
         /// <summary>
         /// Max horizontal speed of the player.
@@ -31,8 +29,7 @@ namespace Platformer.Mechanics
         private bool stopJump;
         /*internal new*/ public Collider2D collider2d;
         public Rigidbody2D rb;
-        /*internal new*/
-        public AudioSource audioSource;
+        
         public Health health;
         public bool controlEnabled = true;
         float dt = 0.0f;
@@ -58,7 +55,7 @@ namespace Platformer.Mechanics
         void Awake()
         {
             health = GetComponent<Health>();
-            audioSource = GetComponent<AudioSource>();
+            
             collider2d = GetComponent<Collider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
@@ -112,7 +109,10 @@ namespace Platformer.Mechanics
 
 
                 if (jumpState == JumpState.Grounded && Input.GetButtonDown("Jump2"))
+                {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Jump");
                     jumpState = JumpState.PrepareToJump;
+                }
                 else if (Input.GetButtonUp("Jump2"))
                 {
                     stopJump = true;
@@ -214,11 +214,28 @@ namespace Platformer.Mechanics
                 player1.controlEnabled = false;
                 animator1.SetBool("isFrozen", true);
             }
-	    if (col.CompareTag("Spring"))
-	    {
-		 jumpTakeOffSpeed = 14;
-		 jumpState = JumpState.PrepareToJump;
-	    }
+	        if (col.CompareTag("Spring"))
+	        {
+		        jumpTakeOffSpeed = 14;
+		        jumpState = JumpState.PrepareToJump;
+	        }
+
+            if (col.CompareTag("Zone1"))
+            {
+                CurZone = 1.0f;
+            }
+            if (col.CompareTag("Zone2"))
+            {
+                CurZone = 2.0f;
+            }
+            if (col.CompareTag("Zone3"))
+            {
+                CurZone = 3.0f;
+            }
+            if (col.CompareTag("Zone0"))
+            {
+                CurZone = 0.0f;
+            }
 
         }
 
@@ -232,11 +249,11 @@ namespace Platformer.Mechanics
             {
                 onIce = false;
             }
-            //if (col.CompareTag("Freeze"))
-            //{
-            //    player1.controlEnabled = true;
-            //    animator1.SetBool("isFrozen", false);
-            //}
+            if (col.CompareTag("Spring"))
+            {
+                jumpTakeOffSpeed = 7;
+            }
         }
+        public float CurZone { get; private set; }
     }
 }

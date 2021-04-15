@@ -14,8 +14,9 @@ namespace Platformer.Gameplay
 
         public override void Execute()
         {
-            if (player.audioSource && player.jumpAudio)
-                player.audioSource.PlayOneShot(player.jumpAudio);
+            //if (player.jumpAudio)
+                //player.audioSource.PlayOneShot(player.jumpAudio);
+            //FMODUnity.RuntimeManager.PlayOneShot("event:/Player-1/Jump");
         }
     }
 }
