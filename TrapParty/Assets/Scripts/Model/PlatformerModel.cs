@@ -23,6 +23,7 @@ namespace Platformer.Model
         /// </summary>
         public PlayerController player;
         public Player2Controller player2;
+        public PlayerScores scores;
 
         /// <summary>
         /// The spawn point in the scene.

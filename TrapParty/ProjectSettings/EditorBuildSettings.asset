@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Trap_Party_0.2_Jungle.unity
+    guid: ce963340a57a94d80b0e5b083608e7fa
+  - enabled: 1
     path: Assets/Scenes/Trap_Party_0.1.unity
     guid: 23cd95be710e84914b5fd81f108e09d9
+  - enabled: 1
+    path: Assets/Scenes/Trap_Party_0.2_Flame2.unity
+    guid: ada1729a71d269f428f437f5bc5a56b6
+  - enabled: 1
+    path: Assets/Scenes/Trap_Party_0.2_Ice.unity
+    guid: 22f96844d0c3045f88bd7103107a43e5
   m_configObjects: {}
