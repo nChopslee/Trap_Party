@@ -223,7 +223,7 @@
 			<value>15</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>6</value>
+			<value>3</value>
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>
@@ -249,10 +249,7 @@
 			<value>15</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>6</value>
-		</property>
-		<property name="transitionOffset">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="looping">
 			<value>2</value>
@@ -275,7 +272,7 @@
 			<value>14.999999999999998</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>6</value>
+			<value>2</value>
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>

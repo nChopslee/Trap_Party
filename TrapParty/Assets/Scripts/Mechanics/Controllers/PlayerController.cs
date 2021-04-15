@@ -257,14 +257,7 @@ namespace Platformer.Mechanics
                 jumpTakeOffSpeed = 7;
             }
         }
-        void OnParticleCollision(GameObject other)
-        {
-            if (other.CompareTag("Shot"))
-            {
-
-                animator.SetTrigger("isShot");
-            }
-        }
+        
 
         public float CurZone { get; private set; }
     }
