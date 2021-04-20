@@ -17,7 +17,8 @@ namespace Platformer.Gameplay
     {
         public VictoryZone victoryZone;
 
-        public SceneTransition nextScene =  new SceneTransition();
+        public SceneTransition nextScene = new SceneTransition();
+        
 
         PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 

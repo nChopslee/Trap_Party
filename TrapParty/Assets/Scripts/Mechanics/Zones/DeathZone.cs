@@ -25,11 +25,23 @@ namespace Platformer.Mechanics
             var p2 = collider.gameObject.GetComponent<Player2Controller>();
             if (p != null)
             {
+                if (collider.CompareTag("Player") && (shooter))
+                {
+
+                    p.animator.SetBool("isShot", true);
+                    Debug.Log(collider.tag);
+                }
                 var ev = Schedule<PlayerEnteredDeathZone>();
                 ev.deathzone = this;
             }
             if (p2 != null)
             {
+                if (collider.CompareTag("Player") && (shooter))
+                {
+
+                    p2.animator.SetBool("isShot", true);
+                    Debug.Log(collider.tag);
+                }
                 var ev2 = Schedule<Player2EnteredDeathZone>();
                 ev2.deathzone = this;
             }

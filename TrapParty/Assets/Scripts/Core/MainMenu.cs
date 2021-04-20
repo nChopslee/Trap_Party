@@ -5,13 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public MusicControl musicSystem;
+
     public void ExitButton() {
 	    Application.Quit();
 	    Debug.Log("You have exited out of the game");
     }
 
     public void StartButton() {
-	    SceneManager.LoadScene("Trap_Party_0.2_Jungle");
+       musicSystem.Stop();
+       SceneManager.LoadScene("Trap_Party_0.1");
        // SceneManager.LoadScene("AdditiveScene", LoadSceneMode.Additive);
     }
 }
