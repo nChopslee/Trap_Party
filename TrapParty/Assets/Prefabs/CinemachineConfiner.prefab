@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5102505034379151491}
-  - component: {fileID: 5102505034379151492}
+  - component: {fileID: 3903928465007506433}
   m_Layer: 0
   m_Name: CinemachineConfiner
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!60 &5102505034379151492
+--- !u!60 &3903928465007506433
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,10 +56,8 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 123.5, y: 10}
-      - {x: -32, y: 10}
-      - {x: -35, y: 3}
-      - {x: -35, y: -14}
-      - {x: -18.5, y: -14}
-      - {x: -15, y: -8}
-      - {x: 123.5, y: -8}
+    - - {x: 0, y: 1}
+      - {x: -0.95105654, y: 0.30901697}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: 0.58778536, y: -0.80901694}
+      - {x: 0.9510565, y: 0.30901712}

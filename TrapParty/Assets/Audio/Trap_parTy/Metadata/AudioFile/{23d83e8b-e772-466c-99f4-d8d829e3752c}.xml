@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{23d83e8b-e772-466c-99f4-d8d829e3752c}">
+		<property name="assetPath">
+			<value>Trap Party 0003 [2021-04-19 114142].wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>85.333333333333329</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ff078bd2-f5d5-49fa-97de-3f614d1579b6}</destination>
+		</relationship>
+	</object>
+</objects>

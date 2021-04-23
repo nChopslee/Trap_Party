@@ -17,7 +17,8 @@ namespace Platformer.Gameplay
     {
         public VictoryZone victoryZone;
 
-        public SceneTransition nextScene =  new SceneTransition();
+        public SceneTransition nextScene = new SceneTransition();
+        
 
         PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
@@ -29,7 +30,6 @@ namespace Platformer.Gameplay
             model.player.controlEnabled = false;
             model.player2.animator.SetTrigger("lose");
             model.player2.controlEnabled = false;
-            nextScene.LoadLevel();
         }
 
     }

@@ -12,7 +12,7 @@ public class PlayerScores : MonoBehaviour
 {
     int PlayerScore
     {
-        
+
         get
         {
             return PlayerPrefs.GetInt("PlayerScore", 0);
@@ -41,13 +41,13 @@ public class PlayerScores : MonoBehaviour
     public void playerOneScoreIncrement()
     {
         PlayerScore++;
-        Debug.Log("PlayerScore: " + PlayerScore);
+        //Debug.Log("PlayerScore: " + PlayerScore);
     }
 
     public void playerTwoScoreIncrement()
     {
         PlayerTwoScore++;
-        Debug.Log("Player 2 Score: " + PlayerTwoScore);
+        //Debug.Log("Player 2 Score: " + PlayerTwoScore);
     }
 
     public int getPlScore()
@@ -60,5 +60,6 @@ public class PlayerScores : MonoBehaviour
         return this.PlayerTwoScore;
 
     }
+
 }
 

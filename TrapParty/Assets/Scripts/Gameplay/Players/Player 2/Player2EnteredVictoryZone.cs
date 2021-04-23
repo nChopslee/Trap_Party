@@ -15,7 +15,7 @@ namespace Platformer.Gameplay
     {
         public VictoryZone victoryZone;
 
-        private SceneTransition nextScene;
+        private SceneTransition nextScene = new SceneTransition();
 
         PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
@@ -25,7 +25,6 @@ namespace Platformer.Gameplay
             model.player2.controlEnabled = false;
             model.player.animator.SetTrigger("lose");
             model.player.controlEnabled = false;
-            nextScene.LoadLevel();
         }
     }
 }
