@@ -12,6 +12,7 @@ namespace Platformer.Mechanics
     {
 
         private PlayerScores ps =  new PlayerScores();
+        public SceneTransition st;
         public MusicControl musicSystem;
 
         void OnTriggerEnter2D(Collider2D collider)
@@ -26,6 +27,7 @@ namespace Platformer.Mechanics
                 ps.playerOneScoreIncrement();
                 Debug.Log("Incrementing p1 score" + ps.getPlScore());
                 musicSystem.Stop();
+                st.startTransition();
             }
 
             var p2 = collider.gameObject.GetComponent<Player2Controller>();
@@ -38,6 +40,7 @@ namespace Platformer.Mechanics
                 ps.playerTwoScoreIncrement();
                 Debug.Log("Incrementing p1 score" + ps.getP2Score());
                 musicSystem.Stop();
+                st.startTransition();
             }
         }
 
