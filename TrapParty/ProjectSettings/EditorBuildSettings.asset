@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Trap_Party_0.2_Ice.unity
     guid: 22f96844d0c3045f88bd7103107a43e5
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 37777d9c12488ce4995eeddc862f1b9a
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 44bad426250d7674fad1c9978d1bf1c8
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 012c3b01f1b35fb43998e98d80573d43
   m_configObjects: {}

@@ -48457,8 +48457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83b7b8893929d4d9094f6655d580fae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  st: {fileID: 739751662}
   musicSystem: {fileID: 206458776}
-  st: {fileID: 0}
 --- !u!61 &1034701008
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -68799,7 +68799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83b7b8893929d4d9094f6655d580fae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  st: {fileID: 0}
+  st: {fileID: 739751662}
   musicSystem: {fileID: 206458776}
 --- !u!61 &1924781099
 BoxCollider2D:
