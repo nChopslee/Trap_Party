@@ -11,7 +11,8 @@ public class MainMenu : MonoBehaviour
     }
 
     public void StartButton() {
-	    SceneManager.LoadScene("Trap_Party_0.2_Jungle");
-       // SceneManager.LoadScene("AdditiveScene", LoadSceneMode.Additive);
+        PlayerPrefs.SetInt("PlayerScore", 0);
+        PlayerPrefs.SetInt("PlayerTwoScore", 0);
+        SceneManager.LoadScene("Trap_Party_0.2_Jungle");
     }
 }
