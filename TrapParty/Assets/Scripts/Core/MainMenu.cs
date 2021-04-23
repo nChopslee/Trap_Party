@@ -8,8 +8,16 @@ public class MainMenu : MonoBehaviour
     public MusicControl musicSystem;
 
     public void ExitButton() {
-	    Application.Quit();
-	    Debug.Log("You have exited out of the game");
+	Application.Quit();
+	Debug.Log("You have exited out of the game");
+    }
+
+    public void SettingsButton() {
+	SceneManager.LoadScene("Settings");
+    }
+
+    public void CreditsButton() {
+	SceneManager.LoadScene("Credits");
     }
 
     public void StartButton() {
