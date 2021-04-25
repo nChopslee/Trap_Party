@@ -102,7 +102,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{d0ef0c9e-c0dd-49a9-995d-91d5b6a58fbf}">
 		<property name="volume">
-			<value>-15</value>
+			<value>-3.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{5b6ae0f8-6996-4419-8e6d-788bf03e4a08}</destination>
@@ -223,7 +223,7 @@
 			<value>13.714279761904759</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>6</value>
+			<value>2</value>
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>
@@ -249,7 +249,7 @@
 			<value>13.714285714285708</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>6</value>
+			<value>5</value>
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>
@@ -275,7 +275,7 @@
 			<value>13.714285714285706</value>
 		</property>
 		<property name="quantizationInterval">
-			<value>6</value>
+			<value>5</value>
 		</property>
 		<property name="transitionOffset">
 			<value>1</value>
