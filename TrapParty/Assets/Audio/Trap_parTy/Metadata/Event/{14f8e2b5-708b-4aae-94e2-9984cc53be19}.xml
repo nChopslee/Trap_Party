@@ -166,7 +166,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{dbaf867a-7adc-4051-908a-35fda5cd2be2}">
 		<property name="volume">
-			<value>-15</value>
+			<value>-4.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{3e811962-a0ed-405e-be8b-3131ebaa244b}</destination>
@@ -498,7 +498,6 @@
 		<property name="transitionOffset">
 			<value>1</value>
 		</property>
-		<property name="name" />
 		<property name="looping">
 			<value>2</value>
 		</property>

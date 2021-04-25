@@ -29,6 +29,14 @@ namespace Platformer.Mechanics
                 {
 
                     p.animator.SetBool("isShot", true);
+                    p.animator.SetBool("isBurned", false);
+                    Debug.Log(collider.tag);
+                }
+                if (collider.CompareTag("Player") && (burner))
+                {
+
+                    p.animator.SetBool("isBurned", true);
+                    p.animator.SetBool("isShot", false);
                     Debug.Log(collider.tag);
                 }
                 var ev = Schedule<PlayerEnteredDeathZone>();
@@ -40,6 +48,14 @@ namespace Platformer.Mechanics
                 {
 
                     p2.animator.SetBool("isShot", true);
+                    p2.animator.SetBool("isBurned", false);
+                    Debug.Log(collider.tag);
+                }
+                if (collider.CompareTag("Player") && (burner))
+                {
+
+                    p2.animator.SetBool("isBurned", true);
+                    p2.animator.SetBool("isShot", false);
                     Debug.Log(collider.tag);
                 }
                 var ev2 = Schedule<Player2EnteredDeathZone>();
@@ -58,12 +74,14 @@ namespace Platformer.Mechanics
                 {
 
                     p.animator.SetBool("isShot", true);
+                    p.animator.SetBool("isBurned", false);
                     Debug.Log(other.tag);
                 }
                 if (other.CompareTag("Player") && (burner))
                 {
 
                     p.animator.SetBool("isBurned", true);
+                    p.animator.SetBool("isShot", false);
                     Debug.Log(other.tag);
                 }
                 var ev = Schedule<PlayerEnteredDeathZone>();
@@ -75,6 +93,14 @@ namespace Platformer.Mechanics
                 {
 
                     p2.animator.SetBool("isShot", true);
+                    p2.animator.SetBool("isBurned", false);
+                    Debug.Log(other.tag);
+                }
+                if (other.CompareTag("Player") && (burner))
+                {
+
+                    p2.animator.SetBool("isBurned", true);
+                    p2.animator.SetBool("isShot", false);
                     Debug.Log(other.tag);
                 }
                 var ev2 = Schedule<Player2EnteredDeathZone>();

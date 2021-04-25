@@ -23,7 +23,7 @@ namespace Platformer.Mechanics
         /// <summary>
         /// Initial jump velocity at the start of a jump.
         /// </summary>
-        public float jumpTakeOffSpeed = 7;
+        public float jumpTakeOffSpeed = 7.2f;
 
         public JumpState jumpState = JumpState.Grounded;
         private bool stopJump;
@@ -251,7 +251,7 @@ namespace Platformer.Mechanics
             }
             if (col.CompareTag("Spring"))
             {
-                jumpTakeOffSpeed = 7;
+                jumpTakeOffSpeed = 7.2f;
             }
         }
         public float CurZone { get; private set; }

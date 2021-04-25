@@ -23,8 +23,8 @@ public class MainMenu : MonoBehaviour
     public void StartButton() {
         PlayerPrefs.SetInt("PlayerScore", 0);
         PlayerPrefs.SetInt("PlayerTwoScore", 0);
-       musicSystem.Stop();
-       SceneManager.LoadScene("Trap_Party_0.1");
+        musicSystem.Stop();
+        SceneManager.LoadScene("Trap_Party_0.1");
        // SceneManager.LoadScene("AdditiveScene", LoadSceneMode.Additive);
     }
 }
