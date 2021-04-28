@@ -12,6 +12,7 @@ public class MusicControl : MonoBehaviour
 
     [FMODUnity.EventRef]
     public string music;
+    //public bool sameMusic;
     FMOD.Studio.EventInstance musicEvent;
 
     private Scene scene;
@@ -22,6 +23,7 @@ public class MusicControl : MonoBehaviour
         scene = SceneManager.GetActiveScene();
         chooseEvent();
         musicEvent = FMODUnity.RuntimeManager.CreateInstance(music);
+        //checkSameMusic();
         musicEvent.start();
     }
 
@@ -68,5 +70,10 @@ public class MusicControl : MonoBehaviour
         }
 
     }
+
+    //public void checkSameMusic()
+    //{
+
+    //}
 
 }

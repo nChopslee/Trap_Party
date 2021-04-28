@@ -59,7 +59,7 @@ namespace Platformer.Mechanics
             collider2d = GetComponent<CircleCollider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
-            rb = GetComponent<Rigidbody2D>();    
+            rb = GetComponent<Rigidbody2D>();
         }
 
         protected override void Update()
