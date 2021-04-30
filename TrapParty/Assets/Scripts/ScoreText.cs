@@ -25,8 +25,7 @@ public class ScoreText : MonoBehaviour
     {
         p1 = ps.getPlScore();
         p2 = ps.getP2Score();
-        playerOneScore.color = Color.white;
-        playerOneScore.text = $"{p1} - {p2}";
-        playerTwoScore.text = $"{p2} - {p1}";
+        playerOneScore.text = $"{p1} -";
+        playerTwoScore.text = $"- {p2}";
     }
 }
