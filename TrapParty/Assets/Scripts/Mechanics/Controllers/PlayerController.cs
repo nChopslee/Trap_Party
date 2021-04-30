@@ -23,7 +23,7 @@ namespace Platformer.Mechanics
         /// <summary>
         /// Initial jump velocity at the start of a jump.
         /// </summary>
-        public float jumpTakeOffSpeed = 7;
+        public float jumpTakeOffSpeed = 7.2f;
 
         public JumpState jumpState = JumpState.Grounded;
         private bool stopJump;
@@ -59,13 +59,15 @@ namespace Platformer.Mechanics
             collider2d = GetComponent<CircleCollider2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
-            rb = GetComponent<Rigidbody2D>();    
+            rb = GetComponent<Rigidbody2D>();
         }
 
         protected override void Update()
         {
             Debug.Log(CurZone);
             musicSystem.Zone();
+            
+
 
             if (dt > 5.0f)
             {
@@ -254,7 +256,7 @@ namespace Platformer.Mechanics
             }
             if (col.CompareTag("Spring"))
             {
-                jumpTakeOffSpeed = 7;
+                jumpTakeOffSpeed = 7.2f;
             }
         }
         
