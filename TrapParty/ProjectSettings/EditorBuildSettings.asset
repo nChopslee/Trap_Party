@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Trap_Party_0.2_Ice.unity
     guid: 22f96844d0c3045f88bd7103107a43e5
   - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 2cf51332ee1f14786a349279d90dc5e1
+  - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 37777d9c12488ce4995eeddc862f1b9a
   - enabled: 1

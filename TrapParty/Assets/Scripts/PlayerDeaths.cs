@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerDeaths : MonoBehaviour
 {
+   
+
+
     int PlayerOneDeaths
     {
         get
