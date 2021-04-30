@@ -13,13 +13,16 @@ EditorBuildSettings:
     guid: 23cd95be710e84914b5fd81f108e09d9
   - enabled: 1
     path: Assets/Scenes/Trap_Party_0.2_Jungle.unity
-    guid: ce963340a57a94d80b0e5b083608e7fa
+    guid: 7845aaaf3ba5a4641b595fbbfa99e6ca
   - enabled: 1
     path: Assets/Scenes/Trap_Party_0.5_Flame3.unity
     guid: f76b8ebfcc70842929f05ee28e4d1a46
   - enabled: 1
     path: Assets/Scenes/Trap_Party_0.2_Ice.unity
     guid: 22f96844d0c3045f88bd7103107a43e5
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 2cf51332ee1f14786a349279d90dc5e1
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 37777d9c12488ce4995eeddc862f1b9a

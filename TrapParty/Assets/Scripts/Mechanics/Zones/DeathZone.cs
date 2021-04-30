@@ -15,9 +15,13 @@ namespace Platformer.Mechanics
 
 
 
-        private PlayerDeaths pd = new PlayerDeaths();
+        private PlayerDeaths pd;
         public bool shooter;
         public bool burner;
+
+        void Start(){
+            pd  = GameObject.Find("PlayerDeaths").GetComponent<PlayerDeaths>();
+        }
       
         void OnTriggerEnter2D(Collider2D collider)
         {

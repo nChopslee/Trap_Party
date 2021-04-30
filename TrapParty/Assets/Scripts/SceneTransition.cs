@@ -9,14 +9,17 @@ public class SceneTransition : MonoBehaviour
     private int nextSceneIndex;
     private float transitionTime = 5.0f;
     private GameObject ps;
+    private GameObject pd;
     private float dt = 5.0f;
     private bool hasTransitionStarted = false;
     
     // Start is called before the first frame update
     void Start()
     {
-        ps = GameObject.Find("PlayerScores");
+        ps = GameObject.Find("ScoreText");
         DontDestroyOnLoad(ps);
+        pd = GameObject.Find("PlayerDeaths");
+        DontDestroyOnLoad(pd);
 
     }
 
