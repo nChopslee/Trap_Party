@@ -13,9 +13,9 @@ namespace Platformer.Mechanics
     public class DeathZone : MonoBehaviour
     {
 
-        
-        
 
+
+        private PlayerDeaths pd = new PlayerDeaths();
         public bool shooter;
         public bool burner;
       
@@ -32,6 +32,7 @@ namespace Platformer.Mechanics
                     Debug.Log(collider.tag);
                 }
                 var ev = Schedule<PlayerEnteredDeathZone>();
+                pd.p1DeathInc();
                 ev.deathzone = this;
             }
             if (p2 != null)
@@ -43,6 +44,7 @@ namespace Platformer.Mechanics
                     Debug.Log(collider.tag);
                 }
                 var ev2 = Schedule<Player2EnteredDeathZone>();
+                pd.p2DeathInc();
                 ev2.deathzone = this;
             }
         }
@@ -67,6 +69,7 @@ namespace Platformer.Mechanics
                     Debug.Log(other.tag);
                 }
                 var ev = Schedule<PlayerEnteredDeathZone>();
+                pd.p1DeathInc();
                 ev.deathzone = this;
             }
             if (p2 != null)
@@ -78,6 +81,7 @@ namespace Platformer.Mechanics
                     Debug.Log(other.tag);
                 }
                 var ev2 = Schedule<Player2EnteredDeathZone>();
+                pd.p2DeathInc();
                 ev2.deathzone = this;
             }
         }
