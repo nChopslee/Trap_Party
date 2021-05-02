@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{9f16dfe0-accd-468e-b0cb-dfb2f23762b3}">
+		<property name="assetPath">
+			<value>Ice Cream Picnic Bounce 0004 [2021-05-02 015242].wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>61.765079365079366</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ff078bd2-f5d5-49fa-97de-3f614d1579b6}</destination>
+		</relationship>
+	</object>
+</objects>
