@@ -50,17 +50,14 @@ public class MusicControl : MonoBehaviour
     {
         if (scene.name == "Menu")
         {
-            musicEvent.stop(IMMEDIATE);
             music = "event:/MenuMusic";
         }
         if (scene.name == "Settings")
         {
-            musicEvent.stop(IMMEDIATE);
             music = "event:/SettingsCredits";
         }
         if (scene.name == "Credits")
         {
-            musicEvent.stop(IMMEDIATE);
             music = "event:/SettingsCredits";
         }
         if (scene.name == "Trap_Party_0.1")
