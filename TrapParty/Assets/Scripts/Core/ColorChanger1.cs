@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class ColorChanger1 : MonoBehaviour
 {
-    public Renderer spriteRenderer;
+    public SpriteRenderer spriteRenderer;
     public GameObject player1;
     [SerializeField] private Color[] colors;
     private int colorValue;
 
     void Start() {
-	spriteRenderer = player1.GetComponent<Renderer>();
+	spriteRenderer = player1.GetComponent<SpriteRenderer>();
     }
 
     void Update() {
@@ -24,6 +24,6 @@ public class ColorChanger1 : MonoBehaviour
 	    colorValue = 0;
 	}
 
-	spriteRenderer.material.color = colors[colorValue];
+	spriteRenderer.color = colors[colorValue];
     }
 }

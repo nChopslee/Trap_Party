@@ -38,11 +38,13 @@ public class PlayerDeaths : MonoBehaviour
     public void p1DeathInc()
     {
         PlayerOneDeaths++;
+        Debug.Log("P1 Deaths: " + PlayerOneDeaths);
     }
 
     public void p2DeathInc()
     {
         PlayerTwoDeaths++;
+        Debug.Log("P2 Deaths: " + PlayerTwoDeaths);
     }
 
     public int getP1Deaths()
