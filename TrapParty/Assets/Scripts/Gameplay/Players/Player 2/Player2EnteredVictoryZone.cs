@@ -25,6 +25,7 @@ namespace Platformer.Gameplay
             model.player2.controlEnabled = false;
             model.player.animator.SetTrigger("lose");
             model.player.controlEnabled = false;
+            FMODUnity.RuntimeManager.PlayOneShot("event:/WinLevel");
         }
     }
 }

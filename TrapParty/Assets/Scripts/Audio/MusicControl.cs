@@ -52,6 +52,14 @@ public class MusicControl : MonoBehaviour
         {
             music = "event:/MenuMusic";
         }
+        if (scene.name == "Settings")
+        {
+            music = "event:/SettingsCredits";
+        }
+        if (scene.name == "Credits")
+        {
+            music = "event:/SettingsCredits";
+        }
         if (scene.name == "Trap_Party_0.1")
         {
             music = "event:/DungeonMusic";
@@ -64,10 +72,16 @@ public class MusicControl : MonoBehaviour
         {
             music = "event:/IceMusic";
         }
-        if (scene.name == "Trap_Party_0.2_Flame2")
+        if (scene.name == "Trap_Party_0.5_Flame3")
         {
             music = "event:/FlameMusic";
         }
+        if (scene.name == "FinalScene")
+        {
+            music = "event:/FinalMusic";
+        }
+
+
 
     }
 
