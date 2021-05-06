@@ -8,7 +8,9 @@ using TMPro;
 public class FinalScore : MonoBehaviour
 {
     private ScoreText scoreText;
-    private PlayerDeaths playerDeaths;
+    //private PlayerDeaths playerDeaths;
+    private int p1Ds;
+    private int p2Ds;
 
     private bool p1Wins = false;
     private bool p2Wins = false;
@@ -20,43 +22,48 @@ public class FinalScore : MonoBehaviour
     void Start()
     {
         finalScores = GameObject.Find("FinalScoreText").GetComponent<TextMeshProUGUI>();
-        playerDeaths = GameObject.Find("PlayerDeaths").GetComponent<PlayerDeaths>();
+        //playerDeaths = GameObject.Find("PlayerDeaths").GetComponent<PlayerDeaths>();
         scoreText = GameObject.Find("ScoreText").GetComponent<ScoreText>();
+        p1Ds = PlayerPrefs.GetInt("PlayerOneDeaths");
+        p2Ds = PlayerPrefs.GetInt("playerTwoDeaths");
     }
 
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if ((scoreText.P1 == 4 && scoreText.P2 == 0) ||
-            (scoreText.P1 == 3 && scoreText.P2 == 1))
+        if (scoreText.P1 > scoreText.P2)
         {
-            p1Wins = true;
+            Debug.Log("Checking if P1Score greater than P2Score");
             finalScores.text = $"Player 1 Wins";
-
-
         }
-        if ((scoreText.P1 == 0 && scoreText.P2 == 4) ||
-            (scoreText.P1 == 1 && scoreText.P2 == 3))
+        if (scoreText.P1 < scoreText.P2)
         {
-            p2Wins = true;
+            Debug.Log("Checking if P2Score greater than P1Score");
             finalScores.text = $"Player 2 Wins";
         }
 
-        if (scoreText.P1 == 2 && scoreText.P2 == 2){
-            if (playerDeaths.getP1Deaths() > playerDeaths.getP2Deaths())
+        if (scoreText.P1 == scoreText.P2){
+            Debug.Log("Both Scores are equal");
+            if (p1Ds > p2Ds)
             {
-                p2Wins = true;
+                Debug.Log("Player One has more deaths");
+                string deaths = $"{p1Ds} - {p2Ds}";
+                Debug.Log(deaths);
                 finalScores.text = $"Player 2 Wins";
             }
-            if (playerDeaths.getP1Deaths() < playerDeaths.getP2Deaths())
+            if (p1Ds < p2Ds)
             {
-                p1Wins = true;
+                Debug.Log("Player 2 has more deaths");
+                string deaths = $"{p1Ds} - {p2Ds}";
+                Debug.Log(deaths);
                 finalScores.text = $"Player 1 Wins";
             }
-            else
+            if (p1Ds == p2Ds)
             {
-                draw = true;
+                Debug.Log("Both players have equal deaths");
+                string deaths = $"{p1Ds} - {p2Ds}";
+                Debug.Log(deaths);
                 finalScores.text = $"No One Wins - Play Again";
             }
         }
