@@ -46,6 +46,33 @@ public class MusicControl : MonoBehaviour
         
     }
 
+    public void TorchOn()
+    {
+        if (player1.TorchOn == 1.0f)
+        {
+            temp = 1.0f;
+        }
+        if (player1.TorchOn == 0.0f)
+        {
+            temp = 0.0f;
+        }
+        musicEvent.setParameterByName("TorchOn", temp);
+    }
+
+    public void TorchOn2()
+        {
+            if (player2.TorchOn2 == 1.0f)
+        {
+            temp = 1.0f;
+        }
+        if (player2.TorchOn2 == 0.0f)
+        {
+            temp = 0.0f;
+        }
+        musicEvent.setParameterByName("TorchOn", temp);
+    }
+       
+
     public void chooseEvent()
     {
         if (scene.name == "Menu")

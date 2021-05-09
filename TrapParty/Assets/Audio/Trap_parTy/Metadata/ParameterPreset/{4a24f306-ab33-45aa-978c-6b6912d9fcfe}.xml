@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{4a24f306-ab33-45aa-978c-6b6912d9fcfe}">
+		<property name="name">
+			<value>TorchOn2</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7e90cadf-6271-4f5f-8f27-f09e857e821d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3ced6353-9d3f-4576-ae3c-cc437098624a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3ced6353-9d3f-4576-ae3c-cc437098624a}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

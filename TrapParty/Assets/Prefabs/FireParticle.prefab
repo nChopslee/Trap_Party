@@ -4759,7 +4759,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6322212664535529017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8db3917c383f649bf97cc93393ba7f4e, type: 3}
+  m_Script: {fileID: 11500000, guid: b6c1c56c9d4474ae0a6902e0c8e97211, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Prefab: {fileID: 0}
@@ -4840,4 +4840,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shooter: 0
-  burner: 0
+  burner: 1

@@ -6250,3 +6250,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b626b235d9d74f3fa09cd545422b849, type: 3}
+--- !u!1001 &1671370432414435540
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1671370432169778257, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.071
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671370432169778257, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671370432169778257, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671370432169778257, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671370432169778257, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671370432169778257, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671370432169778257, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671370432169778257, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671370432169778257, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671370432169778257, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671370432169778257, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1671370432169778262, guid: 65cca70e1c235439da8c6a9c6c54d2b6,
+        type: 3}
+      propertyPath: m_Name
+      value: TransientRainbow
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 65cca70e1c235439da8c6a9c6c54d2b6, type: 3}

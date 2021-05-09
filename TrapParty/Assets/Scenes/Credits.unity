@@ -151,12 +151,12 @@ RectTransform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1579477835}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -165.5, y: -158}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 20.2, y: -119.7}
+  m_SizeDelta: {x: 1041.3, y: 50.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &38234995
 MonoBehaviour:
@@ -183,14 +183,14 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 50
+    m_MaxSize: 66
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Norman Lee
+  m_Text: Norman Bennett - Lead Programmer, Player Animations, Sound Design
 --- !u!222 &38234996
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -273,12 +273,12 @@ RectTransform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1579477835}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000024796, y: -353}
-  m_SizeDelta: {x: 817.1078, y: 139.87238}
+  m_AnchoredPosition: {x: 7.3, y: -342.2}
+  m_SizeDelta: {x: 1449.6, y: 166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &146742761
 MonoBehaviour:
@@ -312,12 +312,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'SpamMKidD: Dungeon, Jungle, Ice
-
-    Chopslee: Menu, Game Over
-
-    Albert
-    Lambert: Lava'
+  m_Text: "SpamMKidD: \"Big Up\" - Dungeon, \"SwampThing\" - Jungle, \"Jewk\" - Ice,
+    \"Demonstration\" - Settings\n\nChopslee: \"Trap Party\" - Menu, \"\u30D4\u30AF\u30CB\u30C3\u30AF
+    aka Picnic - Bounce Remix\u201D- Game Over\n\nAlbert Lambert: \"Scorched Rock\"
+    - Lava"
 --- !u!222 &146742762
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2071,11 +2069,11 @@ RectTransform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1579477835}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -283.3}
+  m_AnchoredPosition: {x: 0, y: -272.3}
   m_SizeDelta: {x: 281, y: 94.936035}
   m_Pivot: {x: 0.5, y: 0.49999988}
 --- !u!114 &412112255
@@ -2349,7 +2347,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -42}
+  m_AnchoredPosition: {x: 8.5, y: -42}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &647745752
@@ -2384,7 +2382,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Trap Party
+  m_Text: Trap parTy
 --- !u!222 &647745753
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2392,84 +2390,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647745750}
-  m_CullTransparentMesh: 0
---- !u!1 &714379542
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 714379543}
-  - component: {fileID: 714379545}
-  - component: {fileID: 714379544}
-  m_Layer: 5
-  m_Name: TrapParty (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &714379543
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 714379542}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1579477835}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 165.5, y: -128}
-  m_SizeDelta: {x: 300, y: 50}
-  m_Pivot: {x: 0.5, y: 0.49999988}
---- !u!114 &714379544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 714379542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 0
-    m_MaxSize: 50
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Art Designer
---- !u!222 &714379545
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 714379542}
   m_CullTransparentMesh: 0
 --- !u!1 &730914407
 GameObject:
@@ -2505,8 +2425,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -165.5, y: -178}
-  m_SizeDelta: {x: 250, y: 50}
+  m_AnchoredPosition: {x: 12.9, y: -168.8}
+  m_SizeDelta: {x: 491.6, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &730914409
 MonoBehaviour:
@@ -2540,7 +2460,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Edward Barranco
+  m_Text: Edward Barranco - Programmer
 --- !u!222 &730914410
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2595,84 +2515,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1056636717
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1056636718}
-  - component: {fileID: 1056636720}
-  - component: {fileID: 1056636719}
-  m_Layer: 5
-  m_Name: TrapParty (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1056636718
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056636717}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1579477835}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 165.5, y: -128}
-  m_SizeDelta: {x: 300, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1056636719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056636717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
-    m_FontStyle: 1
-    m_BestFit: 1
-    m_MinSize: 0
-    m_MaxSize: 50
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Art Designer
---- !u!222 &1056636720
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056636717}
-  m_CullTransparentMesh: 0
 --- !u!1 &1081495808
 GameObject:
   m_ObjectHideFlags: 0
@@ -2703,12 +2545,12 @@ RectTransform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1579477835}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 165.5, y: -158}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 10.9, y: -194.8}
+  m_SizeDelta: {x: 443.9, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1081495810
 MonoBehaviour:
@@ -2742,7 +2584,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Darrell
+  m_Text: Darrell Donaldson - Level Art
 --- !u!222 &1081495811
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2965,7 +2807,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -71}
+  m_AnchoredPosition: {x: 7.2, y: -75.55}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1427726437
@@ -3000,7 +2842,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A Game By Norman Lee
+  m_Text: By Isolation Interactive
 --- !u!222 &1427726438
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3119,12 +2961,10 @@ RectTransform:
   - {fileID: 647745751}
   - {fileID: 1427726436}
   - {fileID: 1842528414}
-  - {fileID: 1056636718}
   - {fileID: 38234994}
-  - {fileID: 730914408}
   - {fileID: 1880945814}
+  - {fileID: 730914408}
   - {fileID: 1081495809}
-  - {fileID: 714379543}
   - {fileID: 412112254}
   - {fileID: 146742760}
   m_Father: {fileID: 1405384882}
@@ -3206,8 +3046,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -165.5, y: -128}
-  m_SizeDelta: {x: 300, y: 50}
+  m_AnchoredPosition: {x: -2.7, y: -485.7}
+  m_SizeDelta: {x: 583.3, y: 156.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1842528415
 MonoBehaviour:
@@ -3241,7 +3081,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Programmers
+  m_Text: Dedicated in memory of Halley Nevada Borenstein 1987 - 2017
 --- !u!222 &1842528416
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3280,12 +3120,12 @@ RectTransform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1579477835}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -165.5, y: -198}
-  m_SizeDelta: {x: 225, y: 50}
+  m_AnchoredPosition: {x: 13.9, y: -145.1}
+  m_SizeDelta: {x: 469.6, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1880945815
 MonoBehaviour:
@@ -3319,7 +3159,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Albert Lambert
+  m_Text: Albert Lambert - Programmer
 --- !u!222 &1880945816
 CanvasRenderer:
   m_ObjectHideFlags: 0

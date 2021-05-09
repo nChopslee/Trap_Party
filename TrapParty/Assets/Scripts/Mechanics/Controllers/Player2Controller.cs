@@ -5,6 +5,7 @@ using Platformer.Gameplay;
 using static Platformer.Core.Simulation;
 using Platformer.Model;
 using Platformer.Core;
+using UnityEngine.SceneManagement;
 
 namespace Platformer.Mechanics
 {
@@ -41,6 +42,7 @@ namespace Platformer.Mechanics
         private Vector3 curVel = Vector3.zero;
         public bool onIce = false;
         public bool onSnow = false;
+        //public bool isWinner = false;
 
         //access player 2 controls
         public PlayerController player1;
@@ -52,6 +54,8 @@ namespace Platformer.Mechanics
 
         public Bounds Bounds => collider2d.bounds;
 
+        public FinalScore finalScore;
+
         void Awake()
         {
             health = GetComponent<Health>();
@@ -60,6 +64,30 @@ namespace Platformer.Mechanics
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
             rb = GetComponent<Rigidbody2D>();
+            Scene scene = SceneManager.GetActiveScene();
+
+            if (scene.name == "FinalScene")
+            {
+                if (finalScore.P2Wins)
+                {
+                    transform.position = new Vector3(-0.87f, -0.55f, 0);
+                    transform.localScale = new Vector3(3.0f, 3.0f, 3.0f);
+                    animator.SetBool("isWinner", true);
+
+                }
+                if (finalScore.P1Wins)
+                {
+                    transform.position = new Vector3(1.6f, -1.9f, 0);
+                    transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+                    animator.SetBool("isWinner", false);
+                }
+                if (finalScore.Draw)
+                {
+                    transform.position = new Vector3(1.8f, -1.0f, 0);
+                    transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+                    animator.SetBool("isWinner", false);
+                }
+            }
         }
 
         protected override void Update()
@@ -75,6 +103,7 @@ namespace Platformer.Mechanics
                 dt += Time.deltaTime;
             }
 
+            
 
             if (controlEnabled)
             {
@@ -123,6 +152,7 @@ namespace Platformer.Mechanics
             {
                 move.x = 0;
             }
+            
             UpdateJumpState();
             base.Update();
         }
@@ -219,6 +249,10 @@ namespace Platformer.Mechanics
 		        jumpTakeOffSpeed = 14;
 		        jumpState = JumpState.PrepareToJump;
 	        }
+            if (col.CompareTag("Final"))
+            {
+                animator.SetBool("isWinner", true);
+            }
 
             if (col.CompareTag("Zone1"))
             {
@@ -235,6 +269,12 @@ namespace Platformer.Mechanics
             if (col.CompareTag("Zone0"))
             {
                 CurZone = 0.0f;
+            }
+            if (col.CompareTag("Flame"))
+            {
+                TorchOn2 = 1.0f;
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Torch2");
+
             }
 
         }
@@ -253,7 +293,12 @@ namespace Platformer.Mechanics
             {
                 jumpTakeOffSpeed = 7.2f;
             }
+            if (col.CompareTag("Flame"))
+            {
+                TorchOn2 = 0.0f;
+            }
         }
         public float CurZone { get; private set; }
+        public float TorchOn2 { get; private set; }
     }
 }
