@@ -56,6 +56,8 @@ namespace Platformer.Mechanics
 
         public FinalScore finalScore;
 
+         
+
         void Awake()
         {
             health = GetComponent<Health>();
@@ -64,31 +66,12 @@ namespace Platformer.Mechanics
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
             rb = GetComponent<Rigidbody2D>();
-            Scene scene = SceneManager.GetActiveScene();
+            
 
-            if (scene.name == "FinalScene")
-            {
-                if (finalScore.P2Wins)
-                {
-                    transform.position = new Vector3(-0.87f, -0.55f, 0);
-                    transform.localScale = new Vector3(3.0f, 3.0f, 3.0f);
-                    animator.SetBool("isWinner", true);
-
-                }
-                if (finalScore.P1Wins)
-                {
-                    transform.position = new Vector3(1.6f, -1.9f, 0);
-                    transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-                    animator.SetBool("isWinner", false);
-                }
-                if (finalScore.Draw)
-                {
-                    transform.position = new Vector3(1.8f, -1.0f, 0);
-                    transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-                    animator.SetBool("isWinner", false);
-                }
-            }
+            
         }
+
+        
 
         protected override void Update()
         {
@@ -252,6 +235,7 @@ namespace Platformer.Mechanics
             if (col.CompareTag("Final"))
             {
                 animator.SetBool("isWinner", true);
+                animator1.SetBool("isWinner", false);
             }
 
             if (col.CompareTag("Zone1"))

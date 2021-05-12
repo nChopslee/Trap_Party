@@ -20,12 +20,12 @@ namespace Platformer.Mechanics
             var p = collider.gameObject.GetComponent<PlayerController>();
             if (p != null)
             {
-                Debug.Log("Entering Win Zone");
+                //Debug.Log("Entering Win Zone");
                 var ev = Schedule<PlayerEnteredVictoryZone>();
                 ev.victoryZone = this;
                 //CurP1++;
                 ps.playerOneScoreIncrement();
-                Debug.Log("Incrementing p1 score" + ps.getPlScore());
+                //Debug.Log("Incrementing p1 score" + ps.getPlScore());
                 musicSystem.Stop();
                 st.startTransition();
             }
@@ -33,12 +33,12 @@ namespace Platformer.Mechanics
             var p2 = collider.gameObject.GetComponent<Player2Controller>();
             if (p2 != null)
             {
-                Debug.Log("Entering Win Zone");
+                //Debug.Log("Entering Win Zone");
                 var ev = Schedule<Player2EnteredVictoryZone>();
                 ev.victoryZone = this;
                 //CurP1++;
                 ps.playerTwoScoreIncrement();
-                Debug.Log("Incrementing p1 score" + ps.getP2Score());
+                //Debug.Log("Incrementing p1 score" + ps.getP2Score());
                 musicSystem.Stop();
                 st.startTransition();
             }
